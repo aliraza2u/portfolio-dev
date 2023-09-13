@@ -61,16 +61,15 @@ const Index = () => {
 export default Index;
 const HOMEICONS = [
   {
-    icon: <GitHubIcon />,
-    color: "green",
+    icon: <GitHubIcon style={{ color: "#353353", fontSize: "21px" }} />,
   },
   {
-    icon: <InstagramIcon />,
+    icon: <InstagramIcon style={{ color: "#ff4c60", fontSize: "21px" }} />,
   },
   {
-    icon: <TwitterIcon />,
+    icon: <TwitterIcon style={{ color: "#0d6efd", fontSize: "21px" }} />,
   },
   {
-    icon: <WhatsAppIcon />,
+    icon: <WhatsAppIcon style={{ color: "#198754", fontSize: "21px" }} />,
   },
 ];
