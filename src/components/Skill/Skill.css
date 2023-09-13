@@ -1,0 +1,131 @@
+.skill {
+  height: auto;
+  /* width: 101.5%; */
+  background-color: #f9f9ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.skill_parent {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  height: 85vh;
+  width: 98%;
+  margin: auto;
+  border-radius: 20px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.skill_parent_center {
+  width: 95%;
+  height: 90%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.skill_center_child {
+  width: 31.5%;
+  /* border: 1px solid; */
+}
+.skill_center_childs {
+  width: 100%;
+  /* border: 1px solid; */
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 2px 8px;
+  border-radius: 10px;
+  padding: 5px 16px;
+  color: #000;
+  font-size: 14px;
+}
+.skill_center_childs ul {
+  padding-left: 12px;
+  list-style-type: disc;
+  margin-left: 22px;
+  /* border: 1px solid; */
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.skill_center_childs ul li {
+  display: list-item;
+  /* border: 1px solid; */
+  width: auto;
+}
+
+.skill_text_color {
+  font-weight: 700;
+  margin: 16px 0;
+  font-size: 18px;
+}
+
+.row {
+  width: 101%;
+}
+
+.achievment {
+  /* border: 1px solid red; */
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  flex-wrap: wrap;
+  margin-bottom: 60px;
+}
+.acheivement_item {
+  /* border: 1px solid green; */
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap:10px
+}
+
+.acheivement_detail h3 {
+  font-size: 30px;
+  font-weight: 700;
+  color:  #454360;
+}
+.acheivement_detail span {
+  font-size: 16px;
+  color:  #5e5c7f;
+    font-family: Rubik,sans-serif;
+}
+@media screen and (max-width: 768px) {
+  .skill {
+    /* border: 1px solid; */
+    margin-left: -7%;
+    height: 310vh;
+    width: 107%;
+    display: flex;
+    flex-direction: column;
+  }
+  .skill_parent {
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 210vh;
+    width: 90%;
+    margin-top: -14%;
+    margin-left: 5%;
+    margin-bottom: 0%;
+  }
+  .skill_parent_center {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    /* border: 3px solid green; */
+  }
+  .skill_center_child {
+    /* border: 1px solid; */
+    height: 30%;
+    width: 90%;
+  }
+}

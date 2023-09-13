@@ -1,0 +1,46 @@
+.aboutme_heading {
+  /* font-size: 30px; */
+  /* border: 3px solid darkblue; */
+  /* height: 15%; */
+  color: #454360;
+  padding: 20px;
+  position: relative;
+}
+.section_title{
+  font-weight: 700;
+    font-size: 36px;
+    padding-left: 34px;
+    margin-top: -2%;
+    padding-bottom: 3rem;
+}
+.section_title::before{
+  background-image: url('/public/img/dots-bg.svg');
+  content: "";
+  display: block;
+  height: 37px;
+  left: 0px;
+  position: absolute;
+  top: -14px;
+  width: 37px;
+}
+
+
+@media (max-width:767px) {
+  /* .aboutme_heading{
+    padding-top: 80px;
+  }
+  .section_title::before{
+    content: "";
+    display: block;
+    height: 37px;
+    left: -14px;
+    position: relative;
+    top: 64px;
+    width: 37px;
+    top: 24px;
+  }
+  .section_title{
+    padding-left: 69px;
+    padding-bottom: 0rem;
+  } */
+}
