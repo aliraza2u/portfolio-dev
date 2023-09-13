@@ -102,7 +102,8 @@ function Layout(props) {
       {/* </AppBar> */}
       <Box
         component="nav"
-        sx={{ width: { sm: drawerWidth }, flexShrink: { sm: 0 }, 
+        sx={{
+           width: { sm: drawerWidth }, flexShrink: { sm: 0 }, 
       "@media(max-width:768px)":{
         margin:"0",
         padding:"0",

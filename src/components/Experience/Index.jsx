@@ -53,12 +53,12 @@ const Experience = () => {
           </div>
 
           <div className="col-md-12 mt-md-4">
-            <div className="experience_child " style={{ padding: "30px" }}>
+            <div className="experience_child " style={{}}>
               {Experience_DATA3.map((element) => {
                 return (
                   <div
                     className="child_positions "
-                    style={{ marginLeft: "-50px" }}
+                    
                   >
                     <div className="position_icon">
                       <span>{element.icon}</span>

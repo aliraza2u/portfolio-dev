@@ -96,7 +96,7 @@
 @media screen and (max-width: 768px) {
   .skill {
     /* border: 1px solid; */
-    margin-left: -7%;
+    /* margin-left: -7%; */
     height: 310vh;
     width: 107%;
     display: flex;

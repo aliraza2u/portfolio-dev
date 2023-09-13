@@ -7,7 +7,7 @@
   /* height: 7vh;
     width: 20%; */
   padding: 9px 32px;
-  font-weight: 800;
+  font-weight: 700;
   color: #fff;
   transition: all 1s;
 }
@@ -19,4 +19,11 @@
   animation: btn-push 1s 1 forwards;
   /* transform: scaleX(1), s; */
   transition: 0.1s;
+}
+
+
+@media (max-width:768px) {
+  .intro-btn {
+    margin-top: 1rem;
+  }
 }

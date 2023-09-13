@@ -24,6 +24,7 @@
 .child_positions {
   display: flex;
   justify-content: space-evenly;
+  margin-left: -50px;
 }
 .position_icon {
   /* border: 1px solid; */
@@ -73,12 +74,38 @@
 /* Media Qurieas */
 @media screen and (max-width: 768px) {
   .experience {
-    margin-left: -7%;
+    /* margin-left: -7%; */
   }
   .col-md-6 {
     margin-top: 25px;
   }
   .col-md-12 {
     margin-top: 25px;
+    padding: 0;
   }
+  .experience_parent{
+    /* margin: 0; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 18px;
+    margin-top: 0;
+  }
+  .row{
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+.col-md-6{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.aboutme_headin{
+  /* margin-left: 23px; */
+}
+.child_positions{
+  margin-left: 0;
+}
+
 }
