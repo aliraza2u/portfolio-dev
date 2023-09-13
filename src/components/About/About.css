@@ -148,12 +148,22 @@
 }
 /* for tablets */
 
-@media screen and (max-width: 767px) {
-  /* .about {
+@media (max-width:768px) {
+  
+
+  .about {
     height: auto;
     width: auto;
-    margin-left: -7.7%;
   }
+  .header{
+    margin-left: 11%;
+  }
+  .aboutme_heading {
+padding: 0px;
+  }
+  /* .section_title{
+    padding-left: 14px;
+  } */
 
   .aboutme_data {
     height: 120vh;
@@ -193,5 +203,5 @@
   .about_cv2 {
     width: 100%;
     padding: 20px;
-  } */
+  }
 }

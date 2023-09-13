@@ -14,9 +14,23 @@ const Index = () => {
         <div className="intro-logo">
           <img src="/img/profile-pic.png" alt="" />
         </div>
-        <h1>Arslan Shahab</h1>
-        <div className="intro-txt-parent">
-          <p className="intro-txt">I'm true Front-End Developer</p>
+        <h1
+          style={{
+            fontWeight: "800",
+            color: "#353353",
+            marginTop: "5px",
+            marginBottom: "25px",
+          }}
+        >
+          Arslan Shahab
+        </h1>
+        <div className="intro-txt">
+          <p
+            className="intro-txt"
+            style={{ marginTop: "-20px", fontSize: "17px", lineHeight: 1.5 }}
+          >
+            I'm true Front-End Developer
+          </p>
         </div>
         <div className="intro-icon">
           {HOMEICONS.map((element) => {
@@ -47,15 +61,16 @@ const Index = () => {
 export default Index;
 const HOMEICONS = [
   {
-    icon: <GitHubIcon style={{ color: "#353353" }} />,
+    icon: <GitHubIcon />,
+    color: "green",
   },
   {
     icon: <InstagramIcon />,
   },
   {
-    icon: <TwitterIcon style={{ color: "#0d6efd" }} />,
+    icon: <TwitterIcon />,
   },
   {
-    icon: <WhatsAppIcon style={{ color: "#198754" }} />,
+    icon: <WhatsAppIcon />,
   },
 ];

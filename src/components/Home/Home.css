@@ -161,7 +161,7 @@ p {
 
 
 @media (max-width:767px) {
-  /* .intro-logo img{
+  .intro-logo img{
     width: 150px;
     height:150px
      
@@ -192,6 +192,6 @@ margin-top: -3rem;
   }
   .btn_text{
     margin-top: -2rem;
-  } */
+  }
   
 }

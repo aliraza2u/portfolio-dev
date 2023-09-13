@@ -25,9 +25,10 @@
 }
 
 
-@media (max-width:767px) {
-  /* .aboutme_heading{
-    padding-top: 80px;
+@media (max-width:768px) {
+  .aboutme_heading{
+    /* padding-top: 80px; */
+    padding: 0;
   }
   .section_title::before{
     content: "";
@@ -40,7 +41,10 @@
     top: 24px;
   }
   .section_title{
-    padding-left: 69px;
-    padding-bottom: 0rem;
-  } */
+    padding-bottom: 2rem;
+    padding-left: 14px;
+  }
+  .btn_wrap{
+padding: 0;
+  }
 }
