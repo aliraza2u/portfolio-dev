@@ -9,6 +9,7 @@
   flex-wrap: wrap;
   font-weight: 700;
   color: #454545;
+  padding: 30px;
 }
 .project_tab ul li{
   color: #5e5c7f;
@@ -20,6 +21,11 @@
 
 .project_tab ul li:hover{
   color: #FF4C60;
+}
+
+
+.project_parent{
+  padding: 30px;
 }
 
 .row {
@@ -34,7 +40,7 @@
   
   border-radius: 20px;
   box-shadow: 0 5px 20px 0 rgba(69, 67, 96, 0.1);
-  width: 95%;
+  width: 100%;
   margin: auto;
   height: 100%;
   position: relative;

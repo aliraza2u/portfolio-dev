@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <div className="contact">
       <Header header_txt="Get in Touch" />
-      <div className="contact_parent">
+      <div className=" contact_wrap">
         <div className="row">
           <div className="col-md-4 ">
             <div className="contact_info">
