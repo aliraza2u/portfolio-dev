@@ -27,8 +27,7 @@
 
 @media (max-width:768px) {
   .aboutme_heading{
-    /* padding-top: 80px; */
-    /* padding: 0; */
+    margin-left: 26px;
   }
   .section_title::before{
     content: "";

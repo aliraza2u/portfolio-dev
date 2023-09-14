@@ -14,7 +14,7 @@ const Client = () => {
               data-ride="carousel"
             >
               <div className="carousel-inner">
-                <div className="carousel-item active">
+                <div className="carousel-item active " >
                   {/* <img
                     src="img/service-1.svg"
                     className="d-block w-25"
@@ -39,7 +39,7 @@ const Client = () => {
                     );
                   })}
                 </div>
-                <div className="carousel-item">
+                <div className="carousel-item ">
                   {/* <img
                     src="img/service-2.svg"
                     className="d-block w-25"

@@ -153,7 +153,6 @@
     height: auto;
     width: auto;
     /* border: 1px solid; */
-    margin-left: -7.7%;
   }
 
   .aboutme_data {
@@ -196,5 +195,8 @@
   .about_cv2 {
     width: 100%;
     padding: 20px;
+  }
+  .aboutme_img{
+    height: 62%;
   }
 }
