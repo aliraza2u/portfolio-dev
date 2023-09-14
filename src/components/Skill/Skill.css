@@ -94,16 +94,45 @@
     font-family: Rubik,sans-serif;
 }
 @media screen and (max-width: 768px) {
-  .skill {
-    /* border: 1px solid; */
-    /* margin-left: -7%; */
+  .skill_parent_center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+  .skill_parent{
+    width: 100%;
+    height: 100%;
+  }
+  .skill_center_child{
+    width: 100%;
+    padding: 30px;
+  }
+  .skill_text_color{
+    font-family: Rubik,sans-serif;
+    font-weight: 700;
+    margin: 20px 0;
+  }
+  .skill_center_childs ul li{
+    font-family: Rubik,sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    font-size: 16px;
+  }
+  .achievment{
+    display: flex;
+      justify-content: flex-start;
+    margin-top: 5rem;
+    }
+  /* .skill {
     height: 310vh;
     width: 107%;
     display: flex;
     flex-direction: column;
   }
   .skill_parent {
-    /* border: 1px solid; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -121,11 +150,10 @@
     align-items: center;
     flex-direction: column;
     padding: 20px;
-    /* border: 3px solid green; */
   }
   .skill_center_child {
-    /* border: 1px solid; */
     height: 30%;
     width: 90%;
-  }
+  } */
+  
 }

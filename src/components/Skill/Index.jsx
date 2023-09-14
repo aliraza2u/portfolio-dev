@@ -82,7 +82,7 @@ const Skill = () => {
         </div>
       </div>
       {/* Achevement Section */}
-      <div className="row acheiev">
+      <div className="">
         <div className="col-md-3 col-sm-6">
           <div className="achievment">
             <div className="acheivement_item">

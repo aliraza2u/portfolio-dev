@@ -148,27 +148,19 @@
 }
 /* for tablets */
 
-@media (max-width:768px) {
-  
-
+@media screen and (max-width: 768px) {
   .about {
     height: auto;
     width: auto;
+    /* border: 1px solid; */
+    margin-left: -7.7%;
   }
-  .header{
-    margin-left: 11%;
-  }
-  .aboutme_heading {
-padding: 0px;
-  }
-  /* .section_title{
-    padding-left: 14px;
-  } */
 
   .aboutme_data {
     height: 120vh;
+    /* border: 1px solid; */
     width: 90%;
-    margin: -39px auto;
+    margin: -10px auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -180,6 +172,7 @@ padding: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
+    /* border: 1px solid; */
     padding-bottom: 80px;
   }
   .about_cv {
@@ -191,7 +184,7 @@ padding: 0px;
     margin-top: -100%;
   }
   .about_cv1 {
-    height: 40%;
+    height: 50%;
     width: 96%;
     padding: 20px;
     text-align: justify;
@@ -202,10 +195,6 @@ padding: 0px;
   }
   .about_cv2 {
     width: 100%;
-    padding: 25px;
-    height: 57%;
-  }
-  .aboutme_img{
-    height: 64%;
+    padding: 20px;
   }
 }
