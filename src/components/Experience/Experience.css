@@ -74,7 +74,7 @@
 /* Media Qurieas */
 @media screen and (max-width: 768px) {
   .experience {
-    /* margin-left: -7%; */
+    margin-top: 25rem;
   }
   .col-md-6 {
     margin-top: 25px;

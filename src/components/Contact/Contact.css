@@ -60,3 +60,16 @@
 .btn {
   background-color: #ff4c60;
 }
+
+
+@media (max-width:768px) {
+  .contact_info{
+
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 200px;
+  }
+  .contact{
+    margin-top: 8rem;
+  }
+}

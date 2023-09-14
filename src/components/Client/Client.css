@@ -58,3 +58,11 @@
   background-color: #ff4c60;
   width: 18px;
 }
+
+
+@media (max-width:768px) {
+  .client_center_parent{
+    width: 100%;
+    margin: 0;
+  }
+}

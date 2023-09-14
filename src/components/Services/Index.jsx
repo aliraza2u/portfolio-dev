@@ -5,7 +5,8 @@ import "./Services.css";
 const Services = () => {
   return (
     <div className="services">
-      <Header header_txt="Services" />
+      {/* <h4 className="service_heading">Services</h4> */}
+      <Header header_txt ="Services" />
       <div className="row sevices_parent1">
         <div className="services_parent1_center">
           {SERVICES_DATA.map((element) => {
@@ -29,7 +30,7 @@ const Services = () => {
             );
           })}
         </div>
-        <div class="text-center ">
+        <div class="text_center_wrap ">
           <span>
             Looking for a custom job? <a className="click">Click here</a> to
             contact me! 👋

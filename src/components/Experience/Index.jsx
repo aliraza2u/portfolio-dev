@@ -58,7 +58,7 @@ const Experience = () => {
                 return (
                   <div
                     className="child_positions "
-                    
+                    style={{ marginLeft: "-50px" }}
                   >
                     <div className="position_icon">
                       <span>{element.icon}</span>
