@@ -64,7 +64,7 @@
 }
 
 .row {
-  width: 101%;
+  width: 100%;
 }
 .achivement_wrap{
   display: flex;
@@ -99,6 +99,10 @@
     font-family: Rubik,sans-serif;
 }
 @media screen and (max-width: 768px) {
+  .achivement_wrap{
+    flex-direction: column;
+    gap: 10px;
+  }
   .skill_parent_center{
     display: flex;
     justify-content: center;
@@ -129,7 +133,8 @@
   .achievment{
     display: flex;
       justify-content: flex-start;
-    margin-top: 5rem;
+      margin-bottom: 0;
+      padding: 0;
     }
   /* .skill {
     height: 310vh;

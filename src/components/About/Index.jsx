@@ -11,7 +11,7 @@ const About = () => {
       <section className="about_me">
         <div className="aboutme_data">
           <div className="aboutme_img">
-            <img src="/img/profile-pics.jpeg" alt="" />
+            <img src="/img/profile-pic.png" alt="" />
           </div>
           <div className="about_cv">
             <div className="about_cv1">

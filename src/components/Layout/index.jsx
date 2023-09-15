@@ -159,11 +159,11 @@ function Layout(props) {
         <Index />
         <About />
         <Skill />
-        <Services />
+         <Services />
         <Experience />
         <Project />
         <Client />
-        <Contact />
+        <Contact /> 
       </Box>
     </Box>
   );
