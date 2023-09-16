@@ -2,6 +2,7 @@
   background-color: #f9f9ff;
   /* width: 100%; */
   height: auto;
+  margin-bottom: 51px;
 }
 .sevices_parent1 {
   width: 101%;
@@ -12,7 +13,7 @@
   height: 80vh;
 }
 .services_parent1_center {
-  height: 60vh;
+  height: 52vh;
   width: 95%;
   /* border: 1px solid; */
   display: flex;
@@ -81,7 +82,7 @@ margin-top: 28px;
 
  @media screen and (max-width: 768px) { 
   .services_parent1_center{
-    margin-top: 8rem;
+    margin-top: 6rem;
     width: 100%;
     height: 100%;
     display: flex;

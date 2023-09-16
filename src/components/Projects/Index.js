@@ -3,13 +3,21 @@ import "./Projects.css";
 import Header from "../Header/Index";
 import LinkIcon from "@mui/icons-material/Link";
 import Button from "../Button/Index";
+import image1 from '../image/forest-thumbnail.png';
+import image2 from '../image/pigeon-thumbnail.png';
+import image3 from '../image/midNight.png';
+import image4 from '../image/stackCrypto.jpeg';
+import image5 from '../image/invest.png';
+import image6 from '../image/connect.png';
+
+
 const Project = () => {
   return (
     <div className="project ">
       <Header header_txt="Recent Projects" />
       <div className="row">
         <div className="col-md-10">
-          <div className="project_tab mt-5 ">
+          <div className="project_tab ">
             <ul>
               <li style={{ color: "#FF4C60" }}>Everything</li>
               <li>Web</li>
@@ -21,13 +29,18 @@ const Project = () => {
       </div>
       <div className="project_parent">
         <div className="row ">
-          {PROJECT_DATA.map((element) => {
-            return (
-              <div className="col-md-4 col-sm-6 l1 ">
-                <div className="projects_wrapper">
+
+            
+          {/* {PROJECT_DATA.map((x)=>( */}
+          {PROJECT_DATA.map((x)=>(
+
+            <div className="col-md-4 col-sm-6 l1 ">
+                <div style={{ backgroundImage:`url(${x.img})` }}
+                 className="projects_wrapper">
                   <a href="">
-                    <div className="project_item">
-                      <div className="project_detail"></div>
+                    <div  className="project_item">
+                      <div  
+                       className="project_detail"></div>
                       {HOVER_ITEM.map((e) => {
                         return (
                           <>
@@ -48,8 +61,9 @@ const Project = () => {
                   </a>
                 </div>
               </div>
-            );
-          })}
+                      ))}
+            
+          
         </div>
         <div className="button">
           <Button btn_text="Load more" />
@@ -63,22 +77,22 @@ export default Project;
 
 const PROJECT_DATA = [
   {
-    img: "/public/img/forest-thumbnail.png",
+    img: image1,
   },
   {
-    img: "/public/img/pigeon-thumbnail.png",
+    img: image2,
   },
   {
-    img: "/public/img/luminary-thumbnail.png",
+    img:image3,
   },
   {
-    img: "/public/img/raiinmaker-thumbnail.jpeg",
+    img: image4,
   },
   {
-    img: "/public/img/hashmeeting-thumbnail.png",
+    img: image5,
   },
   {
-    img: "/public/img/zingaly-thumbnail.png",
+    img: image6,
   },
 ];
 const HOVER_ITEM = [

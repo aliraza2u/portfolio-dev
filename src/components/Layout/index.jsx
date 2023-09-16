@@ -30,6 +30,7 @@ import Experience from "../Experience/Index.jsx";
 import Client from "../Client/Index.jsx";
 import Contact from "../Contact/Index.jsx";
 import Project from "../Projects/Index.js";
+import Slider from '../Slider/Index.jsx';
 import "./Layout.css";
 
 const drawerWidth = 300;
@@ -162,7 +163,8 @@ function Layout(props) {
          <Services />
         <Experience />
         <Project />
-        <Client />
+        {/* < Slider /> */}
+        {/* <Client /> */}
         <Contact /> 
       </Box>
     </Box>

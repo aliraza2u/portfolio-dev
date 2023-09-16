@@ -15,19 +15,14 @@ const Index = () => {
           <img src="/img/profile-pic.png" alt="" />
         </div>
         <h1
-          style={{
-            fontWeight: "800",
-            color: "#353353",
-            marginTop: "5px",
-            marginBottom: "25px",
-          }}
+        
         >
           Arslan Shahab
         </h1>
         <div className="intro-txt">
           <p
-            className="intro-txt"
-            style={{ marginTop: "-20px", fontSize: "17px", lineHeight: 1.5 }}
+            className="intro-txt-para"
+            // style={{ marginTop: "-20px", fontSize: "17px", lineHeight: 1.5 }}
           >
             I'm true Front-End Developer
           </p>

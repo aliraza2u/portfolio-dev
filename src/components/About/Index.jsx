@@ -15,7 +15,7 @@ const About = () => {
           </div>
           <div className="about_cv">
             <div className="about_cv1">
-              <span style={{ color: "#454360" }}>
+              <span>
                 I am Arslan Shahab, Frontend-heavy FullStack developer from
                 Lahore, Pakistan. I have rich experience in web site design and
                 building and customization, also I am good at Mobile App

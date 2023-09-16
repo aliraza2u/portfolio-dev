@@ -7,6 +7,7 @@
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 30px;
+  margin-top: -101px;
 }
 .skill_parent {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -99,6 +100,10 @@
     font-family: Rubik,sans-serif;
 }
 @media screen and (max-width: 768px) {
+  .skill{
+    margin-top: -49px;
+    gap: 3rem;
+  }
   .achivement_wrap{
     flex-direction: column;
     gap: 10px;

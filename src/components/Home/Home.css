@@ -10,6 +10,7 @@
   justify-content: center;
   align-items: center;
   background-color: #f9f9ff;
+  margin-bottom: 5rem;
 }
 .intro {
   height: 80%;
@@ -25,9 +26,20 @@ font-size: 18px;
 margin-bottom: 0;
 color: #454360;
 }
+.intro-txt-para{
+  font-size: 18px;
+  font-family:  Rubik,sans-serif;
+      line-height: 1.7;
+      margin-top: -20px;
+}
 .intro h1{
   font-weight:700;
-  color: "#353353",
+  color: #353353;
+  font-weight: 700px;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  font-size: 36px;
+ 
 
             /* margin-top: 5px;
             margin-b: 25px; */
@@ -52,6 +64,7 @@ color: #454360;
   justify-content: flex-start;
   align-items: center;
   width: 25%;
+  gap: 12px;
 }
 p {
   border-right: 1px solid;
@@ -161,13 +174,17 @@ p {
 
 
 @media (max-width:768px) {
+  .intro{
+    height: 52%;
+  }
   .intro-logo img{
     width: 150px;
     height:150px
+    
      
   }
   .intro h1{
-    font-size: 30px;
+    font-size: 34px;
     text-align: center;
     font-weight: 700;
     margin-top: -33px;
@@ -193,7 +210,21 @@ margin-top: -3rem;
   .btn_text{
     margin-top: -2rem;
   }
-  
+  .scroll_mouse{
+    border: 2px solid #353353;
+    border-radius: 16px;
+    display: block;
+    height: 26px;
+    margin: 10px auto auto;
+    position: relative;
+    width: 20px;
+    position: absolute;
+    top: 85%;
+ 
+  }
+  .home{
+    margin-bottom: 0rem;
+  }
 }
 
   

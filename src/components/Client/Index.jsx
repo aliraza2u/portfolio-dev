@@ -1,13 +1,16 @@
 import React from "react";
 import "./Client.css";
 import Index from "../Header/Index.jsx";
+// import Slider from '../Slider/Index';
+
 const Client = () => {
   return (
     <div className="client">
       <Index header_txt="Clients & Reviews" />
       <div className="client_parent">
         <div className="client_center_parent">
-          <div className="slider_parent2">
+    {/* <Slider /> */}
+          {/* <div className="slider_parent2">
             <div
               id="carouselExampleIndicators"
               className="carousel slide "
@@ -15,11 +18,7 @@ const Client = () => {
             >
               <div className="carousel-inner">
                 <div className="carousel-item active " >
-                  {/* <img
-                    src="img/service-1.svg"
-                    className="d-block w-25"
-                    alt="..."
-                  /> */}
+                  
                   {SLIDER_DATA.map((element) => {
                     return (
                       <div className="text-center mx-auto p-4">
@@ -45,7 +44,7 @@ const Client = () => {
                     className="d-block w-25"
                     alt="..."
                   /> */}
-                  {SLIDER_DATA2.map((element) => {
+                  {/* {SLIDER_DATA2.map((element) => {
                     return (
                       <div className="text-center mx-auto p-4">
                         <img
@@ -65,11 +64,7 @@ const Client = () => {
                   })}
                 </div>
                 <div className="carousel-item">
-                  {/* <img
-                    src="img/service-3.svg"
-                    className="d-block w-25"
-                    alt="..."
-                  /> */}
+                  
                   {SLIDER_DATA3.map((element) => {
                     return (
                       <div className="text-center mx-auto p-4">
@@ -108,8 +103,8 @@ const Client = () => {
               data-slide-to="2"
               className="rounded"
             ></li>
-          </ol>
-        </div>
+          </ol> */}
+         </div> 
       </div>
     </div>
   );

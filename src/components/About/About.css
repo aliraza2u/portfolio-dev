@@ -9,6 +9,9 @@
   height: auto;
   /* border: 1px solid; */
 }
+.header{
+  margin-bottom: -7rem;
+}
 .about_me {
   /* border: 1px solid green; */
   height: 80vh;
@@ -17,6 +20,7 @@
   flex-direction: column;
   flex-wrap: wrap;
   padding: 30px;
+  padding-bottom: 1px;
 }
 .aboutme_data {
   /* border: 3px solid violet; */
@@ -59,6 +63,12 @@
   width: 42%;
   text-align: start;
   color: #454360;
+}
+.about_cv1 span{
+  font-size: 16px;
+  line-height: 1.6;
+  color :#5e5c7f;
+  font-family: Rubik,sans-serif;
 }
 .about_cv2 {
   /* border: 1px solid; */
@@ -158,9 +168,9 @@
   }
 
   .aboutme_data {
-    height: 120vh;
+    height: 96vh;
     /* border: 1px solid; */
-    width: 90%;
+    width: 100%;
     margin: -10px auto;
     display: flex;
     flex-direction: column;
@@ -174,7 +184,7 @@
     justify-content: center;
     align-items: center;
     /* border: 1px solid; */
-    padding-bottom: 80px;
+    padding-bottom: 2px;
   }
   .about_cv {
     height: 70%;
@@ -182,7 +192,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    margin-top: -100%;
+    margin-top: -107%;
   }
   .about_cv1 {
     height: 50%;
