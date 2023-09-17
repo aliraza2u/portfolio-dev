@@ -1,32 +1,21 @@
-.logo {
-  /* border: 1px solid; */
-  /* background-color: #f9f9ff; */
-  height: 35%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  margin-top: -15px;
-  margin-bottom: 85px;
-}
-.logo > img {
-  height: 22vh;
-  width: 50%;
-}
-.list {
-  height: 45vh;
-  width: 80%;
+.sidebar-wrap {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  align-content: flex-start;
-  flex-wrap: wrap;
+  gap: 70px;
+  margin-top: 60px;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+}
+.logo img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
 }
 .footer {
-  /* background-color: #f9f9ff; */
   color: #a2a9c4;
-  /* border: 1px solid; */
   margin-top: 90px;
   display: flex;
   justify-content: flex-start;
