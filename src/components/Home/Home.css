@@ -10,7 +10,7 @@
   justify-content: center;
   align-items: center;
   background-color: #f9f9ff;
-  margin-bottom: 5rem;
+  padding-bottom: 5rem;
 }
 .intro {
   height: 80%;
@@ -21,27 +21,26 @@
   justify-content: space-around;
   align-items: center;
 }
-.intro-txt{
-font-size: 18px;
-margin-bottom: 0;
-color: #454360;
-}
-.intro-txt-para{
+.intro-txt {
   font-size: 18px;
-  font-family:  Rubik,sans-serif;
-      line-height: 1.7;
-      margin-top: -20px;
+  margin-bottom: 0;
+  color: #454360;
 }
-.intro h1{
-  font-weight:700;
+.intro-txt-para {
+  font-size: 18px;
+  font-family: Rubik, sans-serif;
+  line-height: 1.7;
+  margin-top: -20px;
+}
+.intro h1 {
+  font-weight: 700;
   color: #353353;
   font-weight: 700px;
   margin-top: 20px;
   margin-bottom: 25px;
   font-size: 36px;
- 
 
-            /* margin-top: 5px;
+  /* margin-top: 5px;
             margin-b: 25px; */
 }
 
@@ -118,7 +117,6 @@ p {
   color: white;
 }
 .mouse_click {
-
   width: 21%;
 }
 .scroll_mouse {
@@ -171,46 +169,41 @@ p {
   }
 }
 
-
-
-@media (max-width:768px) {
-  .intro{
+@media (max-width: 768px) {
+  .intro {
     height: 52%;
   }
-  .intro-logo img{
+  .intro-logo img {
     width: 150px;
-    height:150px
-    
-     
+    height: 150px;
   }
-  .intro h1{
+  .intro h1 {
     font-size: 34px;
     text-align: center;
     font-weight: 700;
     margin-top: -33px;
     color: #353353;
-    margin-top: 0!important;
-    font-family: Rubik,sans-serif;
+    margin-top: 0 !important;
+    font-family: Rubik, sans-serif;
     margin: 20px 0;
   }
-  .intro-txt-parent{
-margin-top: -3rem;
+  .intro-txt-parent {
+    margin-top: -3rem;
   }
-  .intro-txt{
+  .intro-txt {
     color: #454360;
     font-size: 18px;
-    font-family: Rubik,sans-serif;
-    
+    font-family: Rubik, sans-serif;
   }
-  .intro-icon{
+  .intro-icon {
     display: flex;
     justify-content: center;
     gap: 1rem;
   }
-  .btn_text{
+  .btn_text {
     margin-top: -2rem;
   }
-  .scroll_mouse{
+  .scroll_mouse {
     border: 2px solid #353353;
     border-radius: 16px;
     display: block;
@@ -220,16 +213,8 @@ margin-top: -3rem;
     width: 20px;
     position: absolute;
     top: 85%;
- 
   }
-  .home{
+  .home {
     margin-bottom: 0rem;
   }
 }
-
-  
-
-/* @media (max-width:380px) {
-  .aboutme_heading{
-    margin-left: 45px;
-  }} */

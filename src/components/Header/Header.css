@@ -1,20 +1,17 @@
 .aboutme_heading {
-  /* font-size: 30px; */
-  /* border: 3px solid darkblue; */
-  /* height: 15%; */
   color: #454360;
   padding: 20px;
-  position: relative;
+  background-color: #f9f9ff;
+  /* position: relative; */
 }
-.section_title{
+.section_title {
   font-weight: 700;
-    font-size: 36px;
-    padding-left: 34px;
-    margin-top: -2%;
-    padding-bottom: 3rem;
+  font-size: 36px;
+  padding-left: 16px;
+  padding-bottom: 3rem;
 }
-.section_title::before{
-  background-image: url('/public/img/dots-bg.svg');
+/* .section_title::before {
+  background-image: url("/public/img/dots-bg.svg");
   content: "";
   display: block;
   height: 37px;
@@ -22,14 +19,13 @@
   position: absolute;
   top: -4px;
   width: 37px;
-}
+} */
 
-
-@media (max-width:768px) {
-  .aboutme_heading{
-    margin-left: 26px;
+@media (max-width: 768px) {
+  .aboutme_heading {
+    padding-left: 26px;
   }
-  .section_title::before{
+  .section_title::before {
     content: "";
     display: block;
     height: 37px;
@@ -39,11 +35,11 @@
     width: 37px;
     top: 24px;
   }
-  .section_title{
+  .section_title {
     padding-bottom: 3rem;
     margin-left: -44px;
   }
-  .btn_wrap{
-padding: 0;
+  .btn_wrap {
+    padding: 0;
   }
 }
