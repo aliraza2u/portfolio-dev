@@ -18,7 +18,7 @@ import WorkIcon from "@mui/icons-material/Work";
 import CallIcon from "@mui/icons-material/Call";
 import Home from "../Home/Index.jsx";
 import About from "../About/Index.jsx";
-import Skill from "../Skill/Index.jsx";
+import Skill from "../Skill/index.jsx";
 import Services from "../Services/Index.jsx";
 import Experience from "../Experience/Index.jsx";
 import Contact from "../Contact/Index.jsx";
@@ -62,7 +62,6 @@ function Layout(props) {
   return (
     <Box sx={{ display: "flex" }}>
       <CssBaseline />
-
       <IconButton
         color="inherit"
         aria-label="open drawer"
@@ -91,29 +90,11 @@ function Layout(props) {
         aria-label="mailbox folders"
       >
         <Drawer
-          container={container}
-          variant="temporary"
-          open={mobileOpen}
-          onClose={handleDrawerToggle}
-          ModalProps={{
-            keepMounted: true,
-          }}
-          sx={{
-            display: { xs: "block", sm: "none" },
-            "& .MuiDrawer-paper": {
-              boxSizing: "border-box",
-              width: drawerWidth,
-              color: "yellow",
-            },
-          }}
-        >
-          {drawer}
-        </Drawer>
-        <Drawer
           variant="permanent"
           sx={{
             display: { xs: "none", sm: "block" },
             "& .MuiDrawer-paper": {
+              backgroundColor: "#f9f9ff",
               boxSizing: "border-box",
               width: drawerWidth,
             },
@@ -123,23 +104,26 @@ function Layout(props) {
           {drawer}
         </Drawer>
       </Box>
-      <Box
-        component="main"
-        sx={{
-          flexGrow: 1,
-          width: { sm: `calc(100% - ${drawerWidth}px)` },
-        }}
-      >
-        <Home />
-        <About />
-        <Skill />
-        <Services />
-        <Experience />
-        <Project />
-        {/* <Slider /> */}
-        {/* <Client /> */}
-        <Contact />
-      </Box>
+      <div className="flex justify-center w-full bg-[#f9f9ff]">
+        <Box
+          component="main"
+          sx={{
+            flexGrow: 1,
+            width: { sm: `calc(100% - ${drawerWidth}px)` },
+          }}
+          className="2xl:max-w-[1180px]"
+        >
+          <Home />
+          <About />
+          <Skill />
+          <Services />
+          <Experience />
+          <Project />
+          {/* <Slider /> */}
+          {/* <Client /> */}
+          <Contact />
+        </Box>
+      </div>
     </Box>
   );
 }

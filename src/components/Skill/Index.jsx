@@ -10,8 +10,6 @@ const Skill = () => {
     <div>
       <Header header_txt="Skills/Experties" />
       <div className="skill">
-        {/* sKILL header */}
-        {/* Skill Center Parent */}
         <div className="skill_parent my-md-5 ">
           <div className="skill_parent_center ">
             <div className="skill_center_child">
@@ -20,7 +18,7 @@ const Skill = () => {
                   Fontend
                 </h4>
                 <ul>
-                  {FRONTEND_SKILS.map((Element) => {
+                  {FRONTEND_SKILLS.map((Element) => {
                     return <li>{Element}</li>;
                   })}
                 </ul>
@@ -82,68 +80,17 @@ const Skill = () => {
             </div>
           </div>
         </div>
-        {/* Achevement Section */}
-        <div className=" achivement_wrap">
-          <div className="col-md-3 col-sm-6">
-            <div className="achievment">
-              <div className="acheivement_item">
-                <span className="acheievement_item_icon ">
-                  <LocalFireDepartmentOutlinedIcon
-                    style={{ color: "rgb(247, 149, 0)", fontSize: "36px" }}
-                  />
-                </span>
-                <div className="acheivement_detail">
-                  <h3>25</h3>
-                  <span>Projects Completed</span>
-                </div>
+        {/* Achievement */}
+        <div className="flex justify-between gap-5 items-center py-14">
+          {PROFESSIONAL_DETAILS.map((item) => (
+            <div key={item.title} className="flex items-baseline gap-6">
+              <span style={{ color: item.color }}>{item.icon}</span>
+              <div className="">
+                <p className="font-bold text-3xl">{item.value}</p>
+                <p className="text-lg text-[#656161]">{item.title}</p>
               </div>
             </div>
-          </div>
-          <div className="col-md-3 col-sm-6">
-            <div className="achievment">
-              <div className="acheivement_item">
-                <span className="acheievement_item_icon ">
-                  <CoffeeIcon
-                    style={{ color: " rgb(193, 130, 68)", fontSize: "36px" }}
-                  />
-                </span>
-                <div className="acheivement_detail">
-                  <h3>1217</h3>
-                  <span>Cup of coffee</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-3 col-sm-6">
-            <div className="achievment">
-              <div className="acheivement_item">
-                <span className="acheievement_item_icon ">
-                  <PeopleAltIcon
-                    style={{ color: "rgb(108, 108, 229)", fontSize: "36px" }}
-                  />
-                </span>
-                <div className="acheivement_detail">
-                  <h3>10</h3>
-                  <span>Satisfied Client</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-3 col-sm-6">
-            <div className="achievment">
-              <div className="acheivement_item">
-                <span className="acheievement_item_icon ">
-                  <BadgeIcon
-                    style={{ color: "rgb(255, 76, 96)", fontSize: "36px" }}
-                  />
-                </span>
-                <div className="acheivement_detail">
-                  <h3 className="">1335</h3>
-                  <span>Commits Pushed</span>
-                </div>
-              </div>
-            </div>
-          </div>
+          ))}
         </div>
       </div>
     </div>
@@ -152,7 +99,7 @@ const Skill = () => {
 
 export default Skill;
 
-const FRONTEND_SKILS = [
+const FRONTEND_SKILLS = [
   "React.Js",
   "Next.Js",
   "React Native",
@@ -182,11 +129,34 @@ const BACKEND_SKILLS = [
 ];
 const VERSIONCONTROL_SKILLS = ["Git", "Github | Gitlab | BitBucket"];
 
-const MANAGEMENT_SKILLS = [
-  "JIRA | Clickup | Monday",
-  "Trello | Teams | Slack",
-  "Azure Devops",
-];
+const MANAGEMENT_SKILLS = ["JIRA | Clickup | Monday", "Trello | Teams | Slack", "Azure Devops"];
 const Design_SKILLS = ["Figma | Adobe Xd", "Photoshop"];
 
 const CICD_SKILLS = ["AWS | Github Actions", "Netlify", "Firebase Hosting"];
+
+const PROFESSIONAL_DETAILS = [
+  {
+    title: "Projects Completed",
+    value: "25",
+    icon: <LocalFireDepartmentOutlinedIcon fontSize="large" />,
+    color: "#f79500",
+  },
+  {
+    title: "Cup of coffee",
+    value: "1217",
+    icon: <CoffeeIcon fontSize="large" />,
+    color: "#c18244",
+  },
+  {
+    title: "Satisfied Client",
+    value: "10",
+    icon: <PeopleAltIcon fontSize="large" />,
+    color: "#6c6ce5",
+  },
+  {
+    title: "Commits Pushed",
+    value: "1335",
+    icon: <BadgeIcon fontSize="large" />,
+    color: "#ff4c60",
+  },
+];

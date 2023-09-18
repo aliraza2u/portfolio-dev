@@ -14,18 +14,9 @@ const Index = () => {
         <div className="intro-logo">
           <img src="/img/profile-pic.png" alt="" />
         </div>
-        <h1
-        
-        >
-          Arslan Shahab
-        </h1>
+        <h1>Arslan Shahab</h1>
         <div className="intro-txt">
-          <p
-            className="intro-txt-para"
-            // style={{ marginTop: "-20px", fontSize: "17px", lineHeight: 1.5 }}
-          >
-            I'm true Front-End Developer
-          </p>
+          <p className="intro-txt-para">I'm true Front-End Developer</p>
         </div>
         <div className="intro-icon">
           {HOMEICONS.map((element) => {
