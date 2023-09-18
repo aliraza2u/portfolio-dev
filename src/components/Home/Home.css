@@ -121,6 +121,7 @@
     width: 20px;
     position: absolute;
     top: 85%;
+    display: flex;
   }
   .home {
     margin-bottom: 0rem;
