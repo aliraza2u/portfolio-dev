@@ -24,10 +24,10 @@ const Project = () => {
           </p>
         ))}
       </div>
-      <div className="project_parent">
-        <div className="row">
+      <div className="project_parent px-3 mt-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5">
           {PROJECT_DATA.map((x) => (
-            <div className="col-md-4 col-sm-6 l1">
+            <div className="h-[320px]">
               <div style={{ backgroundImage: `url(${x.img})` }} className="projects_wrapper">
                 <a href="/">
                   <div className="project_item">
