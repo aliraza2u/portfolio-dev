@@ -1,16 +1,11 @@
 .contact {
-  /* padding: 30px; */
   background-color: #f9f9ff;
-
-  /* border: 1px solid; */
 }
-.contact_wrap{
-  padding: 45px;
-  margin-top: -72px;
+.contact_wrap {
+  margin-bottom: 2rem;
 }
 
 .contact_parent {
-  /* border: 1px solid; */
   height: auto;
   width: 100%;
   margin: auto;
@@ -22,9 +17,9 @@
   background-size: 100% 100%;
   height: 50%;
 }
-.contact_info span{
+.contact_info span {
   color: #5e5c7f;
-  font-family: Rubik,sans-serif;
+  font-family: Rubik, sans-serif;
   font-size: 16px;
   line-height: 1.7;
 }
@@ -42,30 +37,28 @@
 }
 .form-control {
   background-color: #fff;
-    background-image: none;
-    border: 0;
-    border-radius: 30px;
-    box-shadow: none;
-    color: #454360;
-    display: block;
-    font-size: 16px;
-    font-weight: 400;
-    height: 60px;
-    line-height: 1.6;
-    padding: 10px 30px;
-    width: 100%;
-    box-shadow: 0 5px 20px 0 rgba(69,67,96,.1);
-  
+  background-image: none;
+  border: 0;
+  border-radius: 30px;
+  box-shadow: none;
+  color: #454360;
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  height: 60px;
+  line-height: 1.6;
+  padding: 10px 30px;
+  width: 100%;
+  box-shadow: 0 5px 20px 0 rgba(69, 67, 96, 0.1);
 }
 .form-group {
   margin-bottom: 30px;
   color: #5e5c7f;
-    font-family: Rubik,sans-serif;
-    font-size: 16px;
-    line-height: 1.7;
+  font-family: Rubik, sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
 }
 .btn-container {
-  /* border: 1px solid; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -75,31 +68,18 @@
   background-color: #ff4c60;
 }
 
-
-@media (max-width:768px) {
-  .btn-container{
+@media (max-width: 768px) {
+  .btn-container {
     margin-top: 27px;
   }
-  .form-control{
+  .form-control {
     padding: 17px 30px;
   }
-  .form-group{
+  .form-group {
     margin-bottom: 6px;
   }
-  .contact_info{
-
+  .contact_info {
     background-repeat: no-repeat;
     background-size: contain;
-    min-height: 200px;
-  }
-  .contact{
-    margin-top: 8rem;
-  }
-  .contact_wrap{
-    margin-top: -44px;
-    padding: 6px;
-  }
-  .contact_form{
-    margin-top: -35px;
   }
 }

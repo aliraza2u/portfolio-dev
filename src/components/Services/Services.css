@@ -74,10 +74,7 @@
     flex-direction: column;
     gap: 2rem;
   }
-  .text_center_wrap {
-    margin-top: 38%;
-    display: flex;
-  }
+
   .text_center_wrap span {
     padding: 0.9rem;
     text-align: center;

@@ -29,7 +29,7 @@ const Index = () => {
             );
           })}
         </div>
-        <Button btn_text="Hire me" />
+        <Button name="Hire me" />
 
         <div className="scroll">
           <a href="./about/About.jsx">Scroll Down</a>

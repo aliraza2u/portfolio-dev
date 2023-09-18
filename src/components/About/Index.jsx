@@ -4,7 +4,7 @@ import Button from "../Button/Index.jsx";
 import Header from "../Header/Index";
 const About = () => {
   return (
-    <div className="about">
+    <div className="about xl:pb-28">
       <section className="about_me">
         <Header header_txt="About Me" />
         <div className="aboutme_data">

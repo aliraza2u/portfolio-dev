@@ -8,7 +8,6 @@
   justify-content: space-around;
   flex-direction: column;
   flex-wrap: wrap;
-  margin-bottom: 120px;
 }
 .aboutme_data {
   height: 300px;
@@ -18,8 +17,6 @@
 }
 .aboutme_img {
   /* border: 1px solid red; */
-  height: 90%;
-  width: 20%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -149,16 +146,13 @@
 
 @media screen and (max-width: 768px) {
   .about {
-    height: auto;
-    width: auto;
-    /* border: 1px solid; */
+    padding: 1rem;
   }
 
   .aboutme_data {
-    height: 96vh;
+    height: 80vh;
     /* border: 1px solid; */
     width: 100%;
-    margin: -10px auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -166,20 +160,17 @@
   }
   .about_me {
     height: 100%;
-    margin-top: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: 1px solid; */
-    padding-bottom: 2px;
   }
   .about_cv {
-    height: 70%;
+    /* height: 70%; */
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    margin-top: -107%;
+    /* margin-top: -107%; */
   }
   .about_cv1 {
     height: 50%;
@@ -196,6 +187,6 @@
     padding: 20px;
   }
   .aboutme_img {
-    height: 62%;
+    /* height: 62%; */
   }
 }

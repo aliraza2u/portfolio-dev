@@ -8,7 +8,7 @@ const Experience = () => {
     <div className="experience pb-36">
       <Header header_txt="Experience" />
       <div className="experience_parent">
-        <div className="row ">
+        <div className="row px-4 xl:px-0">
           <div className="col-md-6">
             <div className="experience_child">
               {Experience_DATA1.map((element) => {

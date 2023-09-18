@@ -4,7 +4,7 @@ import "./Services.css";
 
 const Services = () => {
   return (
-    <div className="services px-4 pb-36">
+    <div className="services px-4 pb-16 xl:pb-36">
       <Header header_txt="Services" />
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-5">
         {SERVICES_DATA.map((element) => {
