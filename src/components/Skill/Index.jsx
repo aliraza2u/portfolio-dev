@@ -81,7 +81,7 @@ const Skill = () => {
           </div>
         </div>
         {/* Achievement */}
-        <div className="flex justify-between gap-5 items-center py-14">
+        <div className="grid grid-cols-1 lg:grid-cols-4 gap-5 pt-4 lg:py-14">
           {PROFESSIONAL_DETAILS.map((item) => (
             <div key={item.title} className="flex items-baseline gap-6">
               <span style={{ color: item.color }}>{item.icon}</span>

@@ -56,10 +56,7 @@ const Experience = () => {
             <div className="experience_child " style={{}}>
               {Experience_DATA3.map((element) => {
                 return (
-                  <div
-                    className="child_positions "
-                    style={{ marginLeft: "-50px" }}
-                  >
+                  <div className="child_positions ">
                     <div className="position_icon">
                       <span>{element.icon}</span>
                       <span class="line"></span>

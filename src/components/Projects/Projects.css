@@ -1,7 +1,7 @@
 .project {
   background-color: #f9f9ff;
 }
-.project_tab{
+.project_tab {
   display: block;
   margin-top: -2.5rem;
   margin-bottom: -3rem;
@@ -17,26 +17,22 @@
   color: #454545;
   padding: 30px;
 }
-.project_tab ul li{
+.project_tab ul li {
   color: #5e5c7f;
   cursor: pointer;
-  font-family: Rubik,sans-serif;
+  font-family: Rubik, sans-serif;
   font-size: 16px;
   font-weight: 700;
 }
 
-.project_tab ul li:hover{
-  color: #FF4C60;
+.project_tab ul li:hover {
+  color: #ff4c60;
 }
 
-
-.project_parent{
+.project_parent {
   padding: 30px;
 }
 
-.row {
- 
-}
 .l1 {
   height: 50vh;
   margin-top: 20px;
@@ -61,7 +57,6 @@
 .project_detail {
   height: 100%;
   width: 100%;
-  /* margin-left: -15px; */
   position: absolute;
   z-index: 1;
   color: white;
@@ -72,18 +67,11 @@
   transition: all 0.1s;
 }
 .project_item {
-  /* background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center; */
-  
-  /* visibility: hidden; */
   height: 100%;
   width: 100%;
-  /* background-image: url("/public/img/forest-thumbnail.png"); */
   background-size: 100% 100%;
   border-radius: 20px;
   position: relative;
-  /* margin-top: -8px; */
 }
 .projects_wrapper:hover .project_detail {
   border-radius: 20px;
@@ -92,7 +80,6 @@
   transition: 0.5s;
 }
 .projects_wrapper:hover .web {
-  /* visibility: visible; */
   opacity: 1;
   transform: translateY(31px);
   transition: all 0.5s;
@@ -108,7 +95,6 @@
   border-bottom-right-radius: 15px;
   opacity: 0;
   color: white;
-  /* display: inline-block; */
 }
 .title1 {
   z-index: 3;
@@ -135,11 +121,9 @@
   line-height: 1.5;
   display: none;
 }
-.project_item:hover .text{
+.project_item:hover .text {
   display: block;
 }
-
-
 
 .link_icon {
   background-color: #ffd15c;
@@ -163,20 +147,15 @@
   align-items: center;
 }
 
-
-@media (max-width:768px) {
-  .project_tab ul{
+@media (max-width: 768px) {
+  .project_tab ul {
     width: 100%;
     height: 100%;
   }
-  .project_tab{
+  .project_tab {
     display: none;
   }
-  .project_parent{
-    margin-top: -50px;
-  }
-  .l1{
-    /* width: 406px; */
+  .l1 {
     height: 30vh;
   }
 }

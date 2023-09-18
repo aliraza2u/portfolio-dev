@@ -4,44 +4,39 @@ import "./Services.css";
 
 const Services = () => {
   return (
-    <div className="services">
-      {/* <h4 className="service_heading">Services</h4> */}
-      <Header header_txt ="Services" />
-      <div className="row sevices_parent1">
-        <div className="services_parent1_center">
-          {SERVICES_DATA.map((element) => {
-            return (
-              <div className="col-md-4" key={element.heading_text}>
-                <div
-                  className="services_parent1_center_childs"
-                  style={{
-                    background: `${element.color}`,
-                    color: `${element.text_color}`,
-                    boxShadow: " rgba(108, 108, 229, 0.5) 0px 5px 20px 0px",
-                  }}
-                >
-                  <div className="parent1_center_childs_data">
-                    <img src={element.img} alt="" />
-                    <h3>{element.heading_text}</h3>
-                    <span className="parent_paragraph_wrap">{element.paragrapgh_text}</span>
-                  </div>
-                </div>
+    <div className="services px-4">
+      <Header header_txt="Services" />
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-5">
+        {SERVICES_DATA.map((element) => {
+          return (
+            <div
+              className="services_parent1_center_childs min-h-[30vh]"
+              style={{
+                background: `${element.color}`,
+                color: `${element.text_color}`,
+                boxShadow: " rgba(108, 108, 229, 0.5) 0px 5px 20px 0px",
+              }}
+            >
+              <div className="parent1_center_childs_data">
+                <img src={element.img} alt="" />
+                <h3>{element.heading_text}</h3>
+                <span className="parent_paragraph_wrap">{element.paragrapgh_text}</span>
               </div>
-            );
-          })}
-        </div>
-        <div class="text_center_wrap ">
-          <span>
-            Looking for a custom job? <a className="click">Click here</a> to
-            contact me! 👋
-          </span>
-        </div>
+            </div>
+          );
+        })}
+      </div>
+      <div class="text_center_wrap text-center ">
+        <span>
+          Looking for a custom job? <a className="click">Click here</a> to contact me! 👋
+        </span>
       </div>
     </div>
   );
 };
 
 export default Services;
+
 const SERVICES_DATA = [
   {
     img: "img/service-1.svg",

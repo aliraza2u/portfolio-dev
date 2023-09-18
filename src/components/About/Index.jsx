@@ -16,7 +16,7 @@ const About = () => {
           <div className="about_cv">
             <div className="about_cv1">
               <span>
-                I am Arslan Shahab, Frontend-heavy FullStack developer from
+                I am Anwar Ul Haq, Frontend-heavy FullStack developer from
                 Lahore, Pakistan. I have rich experience in web site design and
                 building and customization, also I am good at Mobile App
                 Development.

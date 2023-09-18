@@ -14,7 +14,7 @@ const Index = () => {
         <div className="intro-logo">
           <img src="/img/profile-pic.png" alt="" />
         </div>
-        <h1>Arslan Shahab</h1>
+        <h1>Anwar Ul Haq</h1>
         <div className="intro-txt">
           <p className="intro-txt-para">I'm true Front-End Developer</p>
         </div>

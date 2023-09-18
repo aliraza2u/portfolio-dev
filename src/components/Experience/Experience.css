@@ -1,50 +1,41 @@
 .experience {
   background-color: #f9f9ff;
-  /* border: 1px solid; */
   height: auto;
   padding-bottom: 30px;
 }
 
 .experience_parent {
-  /* border: 1px solid; */
-  height: auto;
-  width: 98%;
-  margin: -18px auto;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-bottom: 5rem;
 }
 .experience_child {
   background-color: #ffffff;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: #64646f33 0px 7px 29px 0px;
   border-radius: 20px;
-  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
   height: 100%;
+  padding: 2rem;
 }
 .child_positions {
   display: flex;
-  justify-content: space-evenly;
-  margin-left: -50px;
+  gap: 1.5rem;
 }
 .position_icon {
-  /* border: 1px solid; */
-  width: 15%;
   display: flex;
   flex-direction: column;
-  /* justify-content: space-evenly; */
   align-items: center;
   color: #ff4c60;
 }
 .line {
-  /* border: 1px solid #ff4c60; */
   background-color: #ff4c60;
   width: 1px;
   height: 75%;
   margin-top: 10px;
 }
 .content {
-  /* border: 1px solid; */
   width: 80%;
   display: flex;
   flex-direction: column;
@@ -56,20 +47,18 @@
 }
 .heading_txt {
   color: #454360;
-    font-family: Rubik,sans-serif;
-    font-size: 16px;
-    line-height: 1.7;
-    font-size: 18px;
-    margin: 10px 0;
-    font-weight: 700;
+  font-family: Rubik, sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  font-size: 18px;
+  margin: 10px 0;
+  font-weight: 700;
 }
 .pagh_txt {
-  font-size: 14px;
-  /* line-height: 1; */
   margin-bottom: 4px;
   line-height: 16px;
   color: #5e5c7f;
-    font-family: Rubik,sans-serif;
+  font-family: Rubik, sans-serif;
 }
 
 /* Media Qurieas */
@@ -85,29 +74,19 @@
     margin-top: 25px;
     padding: 0;
   }
-  .experience_parent{
-    /* margin: 0; */
+  .experience_parent {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 18px;
-    margin-top: -33px;
   }
-  .row{
+  .row {
     width: 100%;
     margin-left: 0px;
     margin-right: 0px;
   }
-.col-md-6{
-  padding-left: 0px;
-  padding-right: 0px;
-}
-.aboutme_headin{
-  /* margin-left: 23px; */
-}
-.child_positions{
-  margin-left: 0;
-}
-
+  .col-md-6 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 }

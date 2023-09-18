@@ -19,7 +19,7 @@ import CallIcon from "@mui/icons-material/Call";
 import Home from "../Home/Index.jsx";
 import About from "../About/Index.jsx";
 import Skill from "../Skill/index.jsx";
-import Services from "../Services/Index.jsx";
+import Services from "../Services/index.jsx";
 import Experience from "../Experience/Index.jsx";
 import Contact from "../Contact/Index.jsx";
 import Project from "../Projects/Index.js";
@@ -104,7 +104,7 @@ function Layout(props) {
           {drawer}
         </Drawer>
       </Box>
-      <div className="flex justify-center w-full bg-[#f9f9ff]">
+      <div className="block lg:flex justify-center w-full bg-[#f9f9ff]">
         <Box
           component="main"
           sx={{
