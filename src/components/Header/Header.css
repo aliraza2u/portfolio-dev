@@ -1,43 +1,13 @@
-.aboutme_heading {
-  color: #454360;
-  padding: 20px;
-  background-color: #f9f9ff;
-  /* position: relative; */
-}
 .section_title {
   font-weight: 700;
   font-size: 36px;
   padding-left: 16px;
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
 }
-/* .section_title::before {
-  background-image: url("/public/img/dots-bg.svg");
-  content: "";
-  display: block;
-  height: 37px;
-  left: 39px;
-  position: absolute;
-  top: -4px;
-  width: 37px;
-} */
 
 @media (max-width: 768px) {
-  .aboutme_heading {
-    padding-left: 26px;
-  }
-  .section_title::before {
-    content: "";
-    display: block;
-    height: 37px;
-    left: -14px;
-    position: relative;
-    top: 64px;
-    width: 37px;
-    top: 24px;
-  }
   .section_title {
-    padding-bottom: 3rem;
-    margin-left: -44px;
+    padding-bottom: 1rem;
   }
   .btn_wrap {
     padding: 0;

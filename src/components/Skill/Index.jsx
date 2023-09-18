@@ -1,16 +1,17 @@
-import React, { version } from "react";
+import React from "react";
 import "./Skill.css";
 import Header from "../Header/Index";
 import CoffeeIcon from "@mui/icons-material/Coffee";
 import LocalFireDepartmentOutlinedIcon from "@mui/icons-material/LocalFireDepartmentOutlined";
 import PeopleAltIcon from "@mui/icons-material/PeopleAlt";
 import BadgeIcon from "@mui/icons-material/Badge";
+
 const Skill = () => {
   return (
-    <div>
+    <div className="pt-12">
       <Header header_txt="Skills/Experties" />
-      <div className="skill">
-        <div className="skill_parent my-md-5 ">
+      <div className="skill px-4">
+        <div className="skill_parent">
           <div className="skill_parent_center ">
             <div className="skill_center_child">
               <div className="skill_center_childs">
@@ -35,7 +36,7 @@ const Skill = () => {
                   })}
                 </ul>
               </div>
-              <div className="skill_center_childs mt-2">
+              <div className="skill_center_childs mt-4">
                 <h4 className="skill_text_color" style={{ color: "#6c6ce5" }}>
                   Version Control
                 </h4>
@@ -46,7 +47,7 @@ const Skill = () => {
                 </ul>
               </div>
             </div>
-            <div className="skill_center_child">
+            <div className="skill_center_child flex flex-col gap-5">
               <div className="skill_center_childs">
                 <h4 className="skill_text_color" style={{ color: "#ffd15c" }}>
                   Management Tools
@@ -57,7 +58,7 @@ const Skill = () => {
                   })}
                 </ul>
               </div>
-              <div className="skill_center_childs mt-2">
+              <div className="skill_center_childs">
                 <h4 className="skill_text_color" style={{ color: "#ff4c60" }}>
                   Design
                 </h4>
@@ -67,7 +68,7 @@ const Skill = () => {
                   })}
                 </ul>
               </div>
-              <div className="skill_center_childs mt-2">
+              <div className="skill_center_childs">
                 <h4 className="skill_text_color" style={{ color: "#6c6ce5" }}>
                   CI/CD
                 </h4>
@@ -81,7 +82,7 @@ const Skill = () => {
           </div>
         </div>
         {/* Achievement */}
-        <div className="grid grid-cols-1 lg:grid-cols-4 gap-5 pt-4 lg:py-14">
+        <div className="grid grid-cols-1 lg:grid-cols-4 gap-5 xl:py-36">
           {PROFESSIONAL_DETAILS.map((item) => (
             <div key={item.title} className="flex items-baseline gap-6">
               <span style={{ color: item.color }}>{item.icon}</span>

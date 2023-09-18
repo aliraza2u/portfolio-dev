@@ -3,70 +3,58 @@ import "./Projects.css";
 import Header from "../Header/Index";
 import LinkIcon from "@mui/icons-material/Link";
 import Button from "../Button/Index";
-import image1 from '../image/forest-thumbnail.png';
-import image2 from '../image/pigeon-thumbnail.png';
-import image3 from '../image/midNight.png';
-import image4 from '../image/stackCrypto.jpeg';
-import image5 from '../image/invest.png';
-import image6 from '../image/connect.png';
-
+import image1 from "../image/forest-thumbnail.png";
+import image2 from "../image/pigeon-thumbnail.png";
+import image3 from "../image/midNight.png";
+import image4 from "../image/stackCrypto.jpeg";
+import image5 from "../image/invest.png";
+import image6 from "../image/connect.png";
 
 const Project = () => {
   return (
     <div className="project ">
       <Header header_txt="Recent Projects" />
-      <div className="row">
-        <div className="col-md-10">
-          <div className="project_tab ">
-            <ul>
-              <li style={{ color: "#FF4C60" }}>Everything</li>
-              <li>Web</li>
-              <li>Mobile</li>
-            </ul>
-          </div>
-        </div>
-        <div className="col-md-2"></div>
+      <div className="flex gap-10 pl-3">
+        {["Everything", "Web", "Mobile"].map((item) => (
+          <p
+            key={item}
+            className={`font-bold cursor-pointer hover:text-[#ff4c60] focus:text-[#ff4c60] active:text-[#ff4c60] recent-tabs`}
+          >
+            {item}
+          </p>
+        ))}
       </div>
       <div className="project_parent">
-        <div className="row ">
-
-            
-          {/* {PROJECT_DATA.map((x)=>( */}
-          {PROJECT_DATA.map((x)=>(
-
-            <div className="col-md-4 col-sm-6 l1 ">
-                <div style={{ backgroundImage:`url(${x.img})` }}
-                 className="projects_wrapper">
-                  <a href="">
-                    <div  className="project_item">
-                      <div  
-                       className="project_detail"></div>
-                      {HOVER_ITEM.map((e) => {
-                        return (
-                          <>
-                            <span className="web">Web</span>
-                            <h4 className="title1">Forest.io</h4>
-                            <span className="text">
-                              PIGEON is the top brand in mother and baby care
-                              products. It is the name that spells comfort and
-                              convenience.{" "}
-                            </span>
-                            <span className="link_icon ">
-                              <LinkIcon style={{ fontSize: "40px" }} />
-                            </span>
-                          </>
-                        );
-                      })}
-                    </div>
-                  </a>
-                </div>
+        <div className="row">
+          {PROJECT_DATA.map((x) => (
+            <div className="col-md-4 col-sm-6 l1">
+              <div style={{ backgroundImage: `url(${x.img})` }} className="projects_wrapper">
+                <a href="/">
+                  <div className="project_item">
+                    <div className="project_detail"></div>
+                    {HOVER_ITEM.map((e) => {
+                      return (
+                        <>
+                          <span className="web">Web</span>
+                          <h4 className="title1">Forest.io</h4>
+                          <span className="text">
+                            PIGEON is the top brand in mother and baby care products. It is the name
+                            that spells comfort and convenience.{" "}
+                          </span>
+                          <span className="link_icon ">
+                            <LinkIcon style={{ fontSize: "40px" }} />
+                          </span>
+                        </>
+                      );
+                    })}
+                  </div>
+                </a>
               </div>
-                      ))}
-            
-          
+            </div>
+          ))}
         </div>
         <div className="button">
-          <Button btn_text="Load more" />
+          <Button name="Load more" />
         </div>
       </div>
     </div>
@@ -83,7 +71,7 @@ const PROJECT_DATA = [
     img: image2,
   },
   {
-    img:image3,
+    img: image3,
   },
   {
     img: image4,

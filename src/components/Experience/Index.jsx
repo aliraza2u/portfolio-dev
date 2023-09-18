@@ -2,9 +2,10 @@ import React from "react";
 import "./Experience.css";
 import Header from "../Header/Index";
 import WorkIcon from "@mui/icons-material/Work";
+
 const Experience = () => {
   return (
-    <div className="experience">
+    <div className="experience pb-36">
       <Header header_txt="Experience" />
       <div className="experience_parent">
         <div className="row ">

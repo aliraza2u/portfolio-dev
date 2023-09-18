@@ -2,17 +2,13 @@
   background-color: #f9f9ff;
   height: auto;
 }
-.header {
-  margin-bottom: -7rem;
-}
+
 .about_me {
-  height: 80vh;
   display: flex;
   justify-content: space-around;
   flex-direction: column;
   flex-wrap: wrap;
-  padding: 30px;
-  padding-bottom: 1px;
+  margin-bottom: 120px;
 }
 .aboutme_data {
   height: 300px;

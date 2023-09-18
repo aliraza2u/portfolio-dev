@@ -13,7 +13,7 @@ const Contact = () => {
               <h3 style={{ color: "#454360" }}>Let's talk about everything!</h3>
               <span>
                 Don't like forms? Send me an{" "}
-                <a href="#" className="send_email">
+                <a href="/" className="send_email">
                   email
                 </a>
                 . 👋
@@ -68,7 +68,7 @@ const Contact = () => {
                   </div>
 
                   <div className="btn-container col-md-12">
-                    <Button btn_text="Send Message" />
+                    <Button name="Send Message" />
                   </div>
                 </div>
               </form>

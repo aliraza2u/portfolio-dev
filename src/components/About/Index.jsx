@@ -5,23 +5,20 @@ import Header from "../Header/Index";
 const About = () => {
   return (
     <div className="about">
-      <div className="header">
-        <Header header_txt="About Me" />
-      </div>
       <section className="about_me">
+        <Header header_txt="About Me" />
         <div className="aboutme_data">
           <div className="aboutme_img">
             <img src="/img/profile-pic.png" alt="" />
           </div>
           <div className="about_cv">
             <div className="about_cv1">
-              <span>
-                I am Anwar Ul Haq, Frontend-heavy FullStack developer from
-                Lahore, Pakistan. I have rich experience in web site design and
-                building and customization, also I am good at Mobile App
-                Development.
-              </span>
-              <Button btn_text="Download CV" />
+              <p>
+                I am Anwar Ul Haq, Frontend-heavy FullStack developer from Lahore, Pakistan. I have
+                rich experience in web site design and building and customization, also I am good at
+                Mobile App Development.
+              </p>
+              <Button name="Download CV" className="mt-4" />
             </div>
             <div className="about_cv2">
               <div className="progress">

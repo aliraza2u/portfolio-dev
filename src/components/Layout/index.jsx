@@ -22,13 +22,12 @@ import Skill from "../Skill/index.jsx";
 import Services from "../Services/index.jsx";
 import Experience from "../Experience/Index.jsx";
 import Contact from "../Contact/Index.jsx";
-import Project from "../Projects/Index.js";
+import Project from "../Projects/index.js";
 import "./Layout.css";
 
 const drawerWidth = 300;
 
 function Layout(props) {
-  const { window } = props;
   const [mobileOpen, setMobileOpen] = React.useState(false);
 
   const handleDrawerToggle = () => {
@@ -56,8 +55,6 @@ function Layout(props) {
       </List>
     </div>
   );
-
-  const container = window !== undefined ? () => window().document.body : undefined;
 
   return (
     <Box sx={{ display: "flex" }}>
