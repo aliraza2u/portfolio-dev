@@ -18,11 +18,11 @@ import WorkIcon from "@mui/icons-material/Work";
 import CallIcon from "@mui/icons-material/Call";
 import Home from "../Home/Index.jsx";
 import About from "../About/Index.jsx";
-import Skill from "../Skill/index.jsx";
-import Services from "../Services/index.jsx";
+import Skill from "../Skill/Index.jsx";
+import Services from "../Services";
 import Experience from "../Experience/Index.jsx";
 import Contact from "../Contact/Index.jsx";
-import Project from "../Projects/index.js";
+import Project from "../Projects";
 import "./Layout.css";
 
 const drawerWidth = 300;

@@ -5,6 +5,7 @@
   justify-content: center;
   align-items: center;
   background-color: #f9f9ff;
+  flex-direction: column;
 }
 .intro {
   height: 80%;
@@ -47,6 +48,72 @@
   width: 25%;
   gap: 12px;
 }
+.parallax{
+  /* position: absolute; */
+  height: 100%;
+      left: 0;
+      overflow: hidden;
+      top: 0;
+      width: 100%;
+  }
+  
+  .parallax .p1{
+    transform: translate(7.37778px, 0.844446px);
+    position: absolute;
+    top: 11%;
+    left: 32%;
+  }
+  .parallax .p2{
+    position: absolute;
+    top: 22%;
+    left: 42%
+  }
+  .parallax .p3{
+    position: absolute;
+    top: 2%;
+    /* left: 44%; */
+  }
+  .parallax .p4{
+    position: absolute;
+    top: 80%;
+    right:71%
+  }
+  .parallax .p5{
+    position: absolute;
+    right: 32%;
+    top: 2%;
+
+  }
+  .parallax .p6{
+    position: absolute;
+    right: 45%;
+    top: 63%;
+  }
+  .parallax .p7{
+    position: absolute;
+    top: 7%;
+    right: 21%;
+  }
+  .parallax .p8{
+    position: absolute;
+    right: 25%;
+    bottom: 42%;
+  }
+  .parallax .p9{
+    position: absolute;
+    right: 7%;
+    top: 18%;
+  }
+  .parallax .p10{
+    position: absolute;
+    right: 13%;
+    top: 32%;
+  }
+  .parallax .p11{
+    position: absolute;
+      right: 50%;
+      top: 80%;
+  }
 .scroll {
   display: flex;
   justify-content: space-around;
