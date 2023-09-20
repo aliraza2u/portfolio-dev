@@ -7,10 +7,11 @@ import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import ListItemButton from "@mui/material/ListItemButton";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import Button from "../Button/Index";
+import { ParallaxBanner, ParallaxBannerLayer,Parallax } from "react-scroll-parallax";
+
 import {
   Icon1,
   Icon2,
-  Icon3,
   Icon4,
   Icon5,
   Icon6,
@@ -56,18 +57,25 @@ const Index = () => {
         </div>
       </div>
       <div className="parallax">
-        <Icon1 />
-        <Icon2 />
-        <Icon3 />
-        <Icon4 />
-        <Icon5 />
-        <Icon6 />
-        <Icon7 />
-        <Icon8 />
-        <Icon9 />
-        <Icon10 />
-        <Icon11 />
-        <Icon12 />
+        <ParallaxBanner
+          className="custom-class"
+          id="hero-banner"
+          style={{ aspectRatio: "2 / 1" }}
+        >
+          <ParallaxBannerLayer speed={-10}>
+            <Icon1 />
+            <Icon2 />
+            <Icon4 />
+            <Icon5 />
+            <Icon6 />
+            <Icon7 />
+            <Icon8 />
+            <Icon9 />
+            <Icon10 />
+            <Icon11 />
+            <Icon12 />
+          </ParallaxBannerLayer>
+        </ParallaxBanner>
       </div>
     </div>
   );

@@ -49,7 +49,7 @@
   gap: 12px;
 }
 .parallax{
-  /* position: absolute; */
+  position: absolute;
   height: 100%;
       left: 0;
       overflow: hidden;
@@ -60,59 +60,59 @@
   .parallax .p1{
     transform: translate(7.37778px, 0.844446px);
     position: absolute;
-    top: 11%;
-    left: 32%;
+    top: 24%;
+    left: 30%;
   }
   .parallax .p2{
     position: absolute;
-    top: 22%;
+    top: 35%;
     left: 42%
   }
   .parallax .p3{
     position: absolute;
-    top: 2%;
-    /* left: 44%; */
+    top: 60%;
+    left: 35%;
   }
   .parallax .p4{
     position: absolute;
-    top: 80%;
-    right:71%
+    top: 74%;
+    right: 70%;
   }
   .parallax .p5{
     position: absolute;
-    right: 32%;
-    top: 2%;
+    right: 41%;
+    top: 18%;;
 
   }
   .parallax .p6{
     position: absolute;
     right: 45%;
-    top: 63%;
+    top: 73%;
   }
   .parallax .p7{
     position: absolute;
-    top: 7%;
-    right: 21%;
+    top: 26%;
+    right: 24%;
   }
   .parallax .p8{
     position: absolute;
-    right: 25%;
-    bottom: 42%;
+    right: 23%;
+    bottom: 33%;;
   }
   .parallax .p9{
     position: absolute;
-    right: 7%;
-    top: 18%;
+    right: 10%;
+    top: 22%;
   }
   .parallax .p10{
     position: absolute;
-    right: 13%;
-    top: 32%;
+    right: 16%;
+    top: 46%
   }
   .parallax .p11{
     position: absolute;
-      right: 50%;
-      top: 80%;
+    left: 90%;
+    top: 74%;
   }
 .scroll {
   display: flex;
