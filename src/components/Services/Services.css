@@ -1,5 +1,6 @@
 .services {
   background-color: #f9f9ff;
+  
 }
 .sevices_parent1 {
   display: flex;
@@ -17,7 +18,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 30px;
+  padding: 14px;
 }
 .services_parent1_center_childs:hover {
   transform: translateY(-10px);

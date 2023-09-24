@@ -46,6 +46,17 @@ const Skill = () => {
                   })}
                 </ul>
               </div>
+               <div className="skill_center_childs">
+                <h4 className="skill_text_color" style={{ color: "#ff4c60" }}>
+                  Design
+                </h4>
+                <ul>
+                  {Design_SKILLS.map((element) => {
+                    return <li>{element}</li>;
+                  })}
+                </ul>
+              </div>
+            
             </div>
             <div className="skill_center_child flex flex-col gap-5">
               <div className="skill_center_childs">
@@ -58,16 +69,7 @@ const Skill = () => {
                   })}
                 </ul>
               </div>
-              <div className="skill_center_childs">
-                <h4 className="skill_text_color" style={{ color: "#ff4c60" }}>
-                  Design
-                </h4>
-                <ul>
-                  {Design_SKILLS.map((element) => {
-                    return <li>{element}</li>;
-                  })}
-                </ul>
-              </div>
+             
               <div className="skill_center_childs">
                 <h4 className="skill_text_color" style={{ color: "#6c6ce5" }}>
                   CI/CD
@@ -82,7 +84,7 @@ const Skill = () => {
           </div>
         </div>
         {/* Achievement */}
-        <div className="grid grid-cols-1 lg:grid-cols-4 gap-5 py-16 xl:py-36">
+        {/* <div className="grid grid-cols-1 lg:grid-cols-4 gap-5 py-16 xl:py-36">
           {PROFESSIONAL_DETAILS.map((item) => (
             <div key={item.title} className="flex items-baseline gap-6">
               <span style={{ color: item.color }}>{item.icon}</span>
@@ -92,7 +94,7 @@ const Skill = () => {
               </div>
             </div>
           ))}
-        </div>
+        </div> */}
       </div>
     </div>
   );
@@ -118,11 +120,10 @@ const FRONTEND_SKILLS = [
 ];
 const BACKEND_SKILLS = [
   
- "MySQL","MariaDB", "MongoDB", "SQLite", "Redis","Crypto", "Tokens", "Solidity", "Smart Contracts", "Web3.JS", "Geth", "Infura", "NFTs"
-];
+ "MySQL","MariaDB", "MongoDB", "SQLite", "Redis",];
 const VERSIONCONTROL_SKILLS = ["Git", "Github | Gitlab | BitBucket"];
 
-const MANAGEMENT_SKILLS = ["JIRA | Clickup | Monday", "Trello | Teams | Slack", "Azure Devops"];
+const MANAGEMENT_SKILLS = ["Crypto","Tokens","Solidity","Smart Contracts" ,"Web3.JS","Geth","Infura","NFTs"];
 const Design_SKILLS = ["Figma | Adobe Xd", "Photoshop"];
 
 const CICD_SKILLS = ["AWS | Github Actions", "Netlify", "Firebase Hosting","DevOps, Cluster & Workload Management, Terraform, Kustomize"];
