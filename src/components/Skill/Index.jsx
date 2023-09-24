@@ -117,23 +117,15 @@ const FRONTEND_SKILLS = [
   "Bootstrap",
 ];
 const BACKEND_SKILLS = [
-  "Node.Js",
-  "Express.Js",
-  "Firebase",
-  "Firestore",
-  "Socket IO",
-  "MongoDb | Mongoose",
-  "MySQL | Sequelize",
-  "PostgreSQL | TypeORM",
-  "Stripe",
-  "Google Maps | Mapbox",
+  
+ "MySQL","MariaDB", "MongoDB", "SQLite", "Redis","Crypto", "Tokens", "Solidity", "Smart Contracts", "Web3.JS", "Geth", "Infura", "NFTs"
 ];
 const VERSIONCONTROL_SKILLS = ["Git", "Github | Gitlab | BitBucket"];
 
 const MANAGEMENT_SKILLS = ["JIRA | Clickup | Monday", "Trello | Teams | Slack", "Azure Devops"];
 const Design_SKILLS = ["Figma | Adobe Xd", "Photoshop"];
 
-const CICD_SKILLS = ["AWS | Github Actions", "Netlify", "Firebase Hosting"];
+const CICD_SKILLS = ["AWS | Github Actions", "Netlify", "Firebase Hosting","DevOps, Cluster & Workload Management, Terraform, Kustomize"];
 
 const PROFESSIONAL_DETAILS = [
   {

@@ -60,7 +60,7 @@
   .parallax .p1{
     transform: translate(7.37778px, 0.844446px);
     position: absolute;
-    top: 24%;
+    top: 15%;
     left: 30%;
   }
   .parallax .p2{
@@ -75,34 +75,34 @@
   }
   .parallax .p4{
     position: absolute;
-    top: 74%;
-    right: 70%;
+    top: 85%;
+    left: 30%;
   }
   .parallax .p5{
     position: absolute;
     right: 41%;
-    top: 18%;;
+    top: 11%;;
 
   }
   .parallax .p6{
     position: absolute;
     right: 45%;
-    top: 73%;
+    top: 85%;
   }
   .parallax .p7{
     position: absolute;
-    top: 26%;
+    top: 18%;
     right: 24%;
   }
   .parallax .p8{
     position: absolute;
     right: 23%;
-    bottom: 33%;;
+    bottom: 18%;;
   }
   .parallax .p9{
     position: absolute;
-    right: 10%;
-    top: 22%;
+    right: 7%;
+    top: 15%;
   }
   .parallax .p10{
     position: absolute;
@@ -111,8 +111,8 @@
   }
   .parallax .p11{
     position: absolute;
-    left: 90%;
-    top: 74%;
+    right: 7%;
+    top: 85%;
   }
 .scroll {
   display: flex;
@@ -192,5 +192,55 @@
   }
   .home {
     margin-bottom: 0rem;
+  }
+  .parallax .p10{
+    top: 41%;
+  }
+  .parallax .p5{
+    right: 50%;
+    top: 5%;
+  }
+  .parallax .p6{
+    right: 47%;
+    top: 82%;;
+  }
+  .parallax .p9{
+    right: 8%;
+    top: 9%;
+  }
+  .parallax .p1{
+    top: 13%;
+    left: 8%;
+
+  }
+  .parallax .p7{
+    top: 21%;
+    right: 24%;
+
+  }
+  .parallax .p4{
+    top: 82%;
+    left: 8%;
+
+  }
+  .parallax .p11{
+    right: 8%;
+    top: 82%;
+
+  }
+  .parallax .p8{
+    right: 31%;
+    bottom: 25%;
+
+  }
+  .parallax .p3{
+    top: 66%;
+    left: 12%;
+
+  }
+  .parallax .p2{
+    top: 29%;
+    left: 16%;
+
   }
 }

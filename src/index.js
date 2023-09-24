@@ -5,9 +5,10 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { ParallaxProvider } from "react-scroll-parallax";
 
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <ParallaxProvider>
+  <ParallaxProvider >
     <React.StrictMode>
       <App />
     </React.StrictMode>
