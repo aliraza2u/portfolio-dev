@@ -85,41 +85,34 @@ export default Experience;
 const Experience_DATA1 = [
   {
     icon: <WorkIcon />,
-    timeline: "July 2023 - Present",
-    heading_txt: "employability.life",
+    timeline: "August 2023 - Present",
+    heading_txt: "Automation Engineer",
     pagh_txt:
-      "Being Frontend Engineer, I am responsible for designing and development of the platform, creating pixel-perfect designs, writing unit and integration tests, and API integrations.",
+      "Develop and maintain automated testing frameworks and tools, using programming languages and automation tools. Create and execute automated test cases based on test plans, ensuring consistent and repeatable testing.",
   },
   {
     icon: <WorkIcon />,
-    timeline: "Sep 2020 - Oct 2021",
-    heading_txt: "Software Developer @ Creative Handles",
+    timeline: "January 2021 - January 2022",
+    heading_txt: "Software Engineer ",
     pagh_txt:
-      "As a React.js/Next.js developer contributed to 5+ projects and lead 2 projects. The main role is to create pixel-perfect designs ensuring high-quality code and standards, PR reviews, estimation meetings and deployments.",
+      " Spearheaded the design and development of the Front-End interface for the SAS platform, employing cuttingedge React.JS technologies to enhance the user experience for both writers and customers • Collaborated closely with cross-functional teams, including developers, designers, and product managers, togather requirements, refine user stories, and facilitate a smooth development and testing workflow. Successfully delivered a visually appealing and highly responsive Front-End interface that significantly improve user engagement and satisfaction, contributing to the platform’s overall success.",
   },
   {
     icon: <WorkIcon />,
-    timeline: "Mar 2023 - May 2023",
-    heading_txt: "MERN Instructor",
+    timeline: "September 2019 - January 2021",
+    heading_txt: "CodeAutomation, Software Engineer",
     pagh_txt:
-      "Had a privilege to teach a full length 3-months long MERN course to a class of 30+ students and professionals. The responsibilities included delivering sessions, hands-on lab, engaging with students and technical assessment.",
+      "• Collaborated on outsourced projects for clients in the United States, leveraging MERN Stack technologies to deliver robust web solutions that met client requirements and standards.• Demonstrated proficiency in automation testing by utilizing Selenium, Java, and Cypress.io, contributing to improved test efficiency and accuracy in project deliverables.",
   },
 ];
 
 const Experience_DATA2 = [
   {
     icon: <WorkIcon />,
-    timeline: "Nov 2021 - Jan 2023",
-    heading_txt: "MERN Developer @ Raiinmaker",
+    timeline: "February 2022 - May 2023",
+    heading_txt: "Research Assistant",
     pagh_txt:
-      "As a FullStack MERN developer, I had been responsible for developing and maintaining admin dashboard for a crypto based reward sharing platforms, creating and integrating API's, refactoring and improving the codebase.",
-  },
-  {
-    icon: <WorkIcon />,
-    timeline: "Mar 2020 - Nov 2020",
-    heading_txt: "Lead F.E. Developer @ Prism Digitals LLC",
-    pagh_txt:
-      "As a Lead Front-end developer I helped the company to deliver highly optimized web applications, CMS and Admin Dashboards. The apps got featured in UAE region as well.",
+      "Analyzed the Non-Fungible Token (NFT) market, staying updated on emerging trends and technologies. Researched the underlying technologies for NFT development, identifying key blockchain platforms and protocols Evaluated various technologies suitable for NFT creation, including block-chain networks (e.g., Ethereum, Binance Smart Chain) and associated smart contract languages.",
   },
   {
     icon: <WorkIcon />,
@@ -128,19 +121,29 @@ const Experience_DATA2 = [
     pagh_txt:
       "As a Lead Front-end developer I helped the company to deliver highly optimized web applications, CMS and Admin Dashboards. The apps got featured in UAE region as well.",
   },
+  {
+    icon: <WorkIcon />,
+    timeline: "July 2018 - September 2019",
+    heading_txt: "Zaryans Consulting pvt, Software Engineer ",
+    pagh_txt:
+      "Spearheaded front-end development for the company’s ERP-based product, specializing in React.JS. Wrote and maintained React components using JSX syntax and the React API, ensuring the product’s user interface was feature-rich and user-friendly. Collaborated seamlessly with cross-functional teams to integrate RESTful APIs and back-end services, enabling dynamic data retrieval and display, and implemented responsive design principles for optimal user experiences across diverse devices and screen sizes",
+  },
+  
+  
 ];
 
 const Experience_DATA3 = [
   {
     icon: <WorkIcon />,
-    timeline: "Sep 2018 - Dec 2018",
-    heading_txt: "Internship | React.Js",
+    timeline: "January 2022 - December 2023",
+    heading_txt: "MS Computer Science",
     pagh_txt: "DH Collator",
   },
   {
     icon: <WorkIcon />,
-    timeline: "2014 - 2018",
-    heading_txt: "BS Hons. Information Technology",
-    pagh_txt: "University of Education, LHR",
+    timeline: "September 2013-October 2017",
+    heading_txt: "BS Computer Science",
+    pagh_txt:
+      "National College of Business Administration & Economics, Pakistan ",
   },
 ];

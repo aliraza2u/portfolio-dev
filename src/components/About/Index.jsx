@@ -14,9 +14,10 @@ const About = () => {
           <div className="about_cv">
             <div className="about_cv1">
               <p>
-                I am Anwar Ul Haq, Frontend-heavy FullStack developer from Lahore, Pakistan. I have
-                rich experience in web site design and building and customization, also I am good at
-                Mobile App Development.
+                I am Anwar Ul Haq, MS Computer Science graduate with 3+ years of
+                expertise in JavaScript, MERN stack, React JS, Next Js
+                development, and proficiency in Selenium-Java and Cypress
+                Testing. 
               </p>
               <Button name="Download CV" className="mt-4" />
             </div>

@@ -58,7 +58,11 @@
   background-color: #ff4c60;
   width: 18px;
 }
-
+.img_slider{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 @media (max-width:768px) {
   .client_center_parent{

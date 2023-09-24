@@ -7,6 +7,22 @@ import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import ListItemButton from "@mui/material/ListItemButton";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import Button from "../Button/Index";
+import { ParallaxBanner, ParallaxBannerLayer } from "react-scroll-parallax";
+
+import {
+  Icon1,
+  Icon2,
+  Icon4,
+  Icon5,
+  Icon6,
+  Icon7,
+  Icon8,
+  Icon9,
+  Icon10,
+  Icon11,
+  Icon12,
+} from "../images";
+
 const Index = () => {
   return (
     <div className="home">
@@ -39,6 +55,21 @@ const Index = () => {
             </div>
           </a>
         </div>
+      </div>
+      <div className="parallax" id="scene" data-relative-input="true">
+        
+            <Icon1 />
+            <Icon2 />
+            <Icon4 />
+            <Icon5 />
+            <Icon6 />
+            <Icon7 />
+            <Icon8 />
+            <Icon9 />
+            <Icon10 />
+            <Icon11 />
+            <Icon12 />
+          
       </div>
     </div>
   );
