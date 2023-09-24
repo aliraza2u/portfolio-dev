@@ -4,9 +4,9 @@ import "./Services.css";
 
 const Services = () => {
   return (
-    <div className="services px-4 pb-16 xl:pb-36">
+    <div className="services px-4 pb-16 xl:pb-24 ">
       <Header header_txt="Services" />
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-5">
+      <div className="grid grid-cols-1 lg:grid-cols-4 gap-5">
         {SERVICES_DATA.map((element) => {
           return (
             <div
@@ -60,6 +60,14 @@ const SERVICES_DATA = [
     paragrapgh_text:
       "Enjoy the deployments to maintain the applications along with data management between servers and users.",
     color: "#f97b8b",
+    text_color: "#fff",
+  },
+  {
+    img: "img/service-3.svg",
+    heading_text: "Software Testing",
+    paragrapgh_text:
+      "Develop and maintain automated testing frameworks and tools, using programming languages and automation tools.",
+    color: "#343a40",
     text_color: "#fff",
   },
 ];

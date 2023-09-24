@@ -114,19 +114,13 @@ const Experience_DATA2 = [
     pagh_txt:
       "Analyzed the Non-Fungible Token (NFT) market, staying updated on emerging trends and technologies. Researched the underlying technologies for NFT development, identifying key blockchain platforms and protocols Evaluated various technologies suitable for NFT creation, including block-chain networks (e.g., Ethereum, Binance Smart Chain) and associated smart contract languages.",
   },
-  {
-    icon: <WorkIcon />,
-    timeline: "Mar 2020 - Nov 2020",
-    heading_txt: "MERN Stack developer @ Hashlogics",
-    pagh_txt:
-      "As a Lead Front-end developer I helped the company to deliver highly optimized web applications, CMS and Admin Dashboards. The apps got featured in UAE region as well.",
-  },
+  
   {
     icon: <WorkIcon />,
     timeline: "July 2018 - September 2019",
     heading_txt: "Zaryans Consulting pvt, Software Engineer ",
     pagh_txt:
-      "Spearheaded front-end development for the company’s ERP-based product, specializing in React.JS. Wrote and maintained React components using JSX syntax and the React API, ensuring the product’s user interface was feature-rich and user-friendly. Collaborated seamlessly with cross-functional teams to integrate RESTful APIs and back-end services, enabling dynamic data retrieval and display, and implemented responsive design principles for optimal user experiences across diverse devices and screen sizes",
+      "Spearheaded front-end development for the company’s ERP-based product, specializing in React.JS. Wrote and maintained React components using JSX syntax and the React API, ensuring the product’s user interface was feature-rich and user-friendly. Collaborated seamlessly with cross-functional teams to integrate RESTful APIs and back-end services, enabling dynamic data retrieval and display, and implemented responsive design principles for optimal user experiences across diverse devices and screen sizes Implemented responsive design techniques to guarantee a consistent and pleasant user experience across various devices and screen dimensions.Actively engaged with development team members to construct a scalable, maintainable, and high-quality application, emphasizing best practices in code quality and collaboration.",
   },
   
   
