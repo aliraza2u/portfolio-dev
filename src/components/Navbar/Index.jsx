@@ -6,6 +6,8 @@ import MedicalInformationIcon from "@mui/icons-material/MedicalInformation";
 import SchoolIcon from "@mui/icons-material/School";
 import WorkIcon from "@mui/icons-material/Work";
 import CallIcon from "@mui/icons-material/Call";
+
+
 const Navbar = () => {
   return (
     <div className="right-nav">
@@ -21,14 +23,13 @@ const Navbar = () => {
           <WorkIcon />
           <CallIcon />
         </div>
-        <ul>
+        {/* <ul>
           <a href="">
             <li>
               <b>Home</b>
             </li>
           </a>
-
-          <a href="">
+          <a href="/about">
             <li>
               <b>About</b>
             </li>
@@ -57,7 +58,7 @@ const Navbar = () => {
               <b>Contact</b>
             </li>
           </a>
-        </ul>
+        </ul> */}
       </nav>
       <footer className="footer">
         <p>&copy;2023 arslanshahab</p>

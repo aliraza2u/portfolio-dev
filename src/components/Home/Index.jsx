@@ -25,7 +25,7 @@ import {
 
 const Index = () => {
   return (
-    <div className="home">
+    <div className="home" id='home'>
       <div className="intro">
         <div className="intro-logo">
           <img src="/img/profile-pic.png" alt="" />

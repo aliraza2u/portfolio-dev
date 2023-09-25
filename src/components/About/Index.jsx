@@ -4,10 +4,10 @@ import Button from "../Button/Index.jsx";
 import Header from "../Header/Index";
 const About = () => {
   return (
-    <div className="about xl:pb-28">
+    <div className="about xl:pb-28" id="about">
       <section className="about_me">
         <Header header_txt="About Me" />
-        <div className="aboutme_data">
+        <div className="aboutme_data ">
           <div className="aboutme_img">
             <img src="/img/profile-pic.png" alt="" />
           </div>

@@ -4,7 +4,7 @@ import "./Services.css";
 
 const Services = () => {
   return (
-    <div className="services px-4 pb-16 xl:pb-24 ">
+    <div className="services px-4 pb-16 xl:pb-24 " id='services'>
       <Header header_txt="Services" />
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-5">
         {SERVICES_DATA.map((element) => {
@@ -63,11 +63,11 @@ const SERVICES_DATA = [
     text_color: "#fff",
   },
   {
-    img: "img/service-3.svg",
+    img: "img/softwaretest.png",
     heading_text: "Software Testing",
     paragrapgh_text:
       "Develop and maintain automated testing frameworks and tools, using programming languages and automation tools.",
-    color: "#343a40",
-    text_color: "#fff",
+    color: "#fff",
+    text_color: "#343a40",
   },
 ];

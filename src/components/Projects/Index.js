@@ -3,50 +3,37 @@ import "./Projects.css";
 import Header from "../Header/Index";
 import LinkIcon from "@mui/icons-material/Link";
 import Button from "../Button/Index";
-import image1 from "../image/forest-thumbnail.png";
-import image2 from "../image/pigeon-thumbnail.png";
-import image3 from "../image/midNight.png";
-import image4 from "../image/stackCrypto.jpeg";
-import image5 from "../image/invest.png";
-import image6 from "../image/connect.png";
+import image1 from "../image/zaryans.png";
+import image2 from "../image/codeautomation.png";
+import image3 from "../image/electricity3.png";
+import image4 from "../image/newhaven.png";
+import image5 from "../image/zaryanss.jpg";
+import image6 from "../image/writesea.png";
 
 const Project = () => {
   return (
-    <div className="project ">
+    <div className="project " id="work">
       <Header header_txt="Recent Projects" />
-      <div className="flex gap-10 pl-3">
-        {["Everything", "Web", "Mobile"].map((item) => (
-          <p
-            key={item}
-            className={`font-bold cursor-pointer hover:text-[#ff4c60] focus:text-[#ff4c60] active:text-[#ff4c60] recent-tabs`}
-          >
-            {item}
-          </p>
-        ))}
-      </div>
+
       <div className="project_parent px-3 mt-4">
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5">
           {PROJECT_DATA.map((x) => (
             <div className="h-[320px]">
-              <div style={{ backgroundImage: `url(${x.img})` }} className="projects_wrapper">
+              <div
+                style={{ backgroundImage: `url(${x.img})` }}
+                className="projects_wrapper"
+              >
                 <a href="/">
                   <div className="project_item">
                     <div className="project_detail"></div>
-                    {HOVER_ITEM.map((e) => {
-                      return (
-                        <>
-                          <span className="web">Web</span>
-                          <h4 className="title1">Forest.io</h4>
-                          <span className="text">
-                            PIGEON is the top brand in mother and baby care products. It is the name
-                            that spells comfort and convenience.{" "}
-                          </span>
-                          <span className="link_icon ">
-                            <LinkIcon style={{ fontSize: "40px" }} />
-                          </span>
-                        </>
-                      );
-                    })}
+
+                    <span className="web">{x.tab}</span>
+                    <h4 className="title1">Forest.io</h4>
+
+                    <span className="text">{x.text}</span>
+                    <span className="link_icon ">
+                      <LinkIcon style={{ fontSize: "40px" }} />
+                    </span>
                   </div>
                 </a>
               </div>
@@ -66,52 +53,44 @@ export default Project;
 const PROJECT_DATA = [
   {
     img: image1,
+    tab: "Web",
+    tiltle: "Forest.io",
+    text: "Plan, integrate and maintain software system according to your scope",
+    icon: <LinkIcon />,
   },
   {
     img: image2,
+    tab: "Web",
+    tiltle: "Pigeon Arabia",
+    text: "Empowering your development journey, we effectively transform visions into code and navigate app and browser testing, creating a digital reality for your ideas.",
+    icon: <LinkIcon />,
   },
   {
     img: image3,
+    tab: "Web",
+    tiltle: "Luminary Podcasts",
+    text: "CodeAutomation is a leading software development and testing company, revolutionizing the digital landscape through innovation and expertise",
+    icon: <LinkIcon />,
   },
   {
     img: image4,
+    tab: "Mobile",
+    tiltle: "Raiinmaker",
+    text: "Dr. Mehdi Mekni is an associate professor of Computer Science and Cybersecurity at the University of New Haven.",
+    icon: <LinkIcon />,
   },
   {
     img: image5,
+    tab: "Mobile",
+    tiltle: "Raiinmaker",
+    text: "With a vast experience and experienced technical team build simple to highly complex bespoken software system. Providing expertise from Story-telling to Designs",
+    icon: <LinkIcon />,
   },
   {
     img: image6,
-  },
-];
-const HOVER_ITEM = [
-  {
     tab: "Web",
-    tiltle: "Forest.io",
-    text: "Forest.io is a cleantech AI company that aims to protect our planet by disrupting the voluntary carbon market with transparent offsets.",
-    icon: <LinkIcon />,
+    tiltle: "Pigeon Arabia",
+    text: "This is a feature that checks for typos, spelling mistakes, and grammatical errors in the resume.",
+    icon: <LinkIcon />
   },
-  // {
-  //   tab: "Web",
-  //   tiltle: "Pigeon Arabia",
-  //   text: "PIGEON is the top brand in mother and baby care products. It is the name that spells comfort and convenience. ",
-  //   icon: <LinkIcon />,
-  // },
-  // {
-  //   tab: "Web",
-  //   tiltle: "Luminary Podcasts",
-  //   text: "Luminary is a subscription podcast network.Original podcasts you won't find anywhere else.",
-  //   icon: <LinkIcon />,
-  // },
-  // {
-  //   tab: "Mobile",
-  //   tiltle: "Raiinmaker",
-  //   text: "Raiinmaker, the fastest growing Web 3.0 Social Creator Platform bridges the gap between legacy social media communities.",
-  //   icon: <LinkIcon />,
-  // },
-  // {
-  //   tab: "Web",
-  //   tiltle: "Pigeon Arabia",
-  //   text: "PIGEON is the top brand in mother and baby care products. It is the name that spells comfort and convenience. ",
-  //   icon: <LinkIcon />,
-  // },
 ];

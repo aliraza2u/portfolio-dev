@@ -25,7 +25,6 @@ import Contact from "../Contact/Index.jsx";
 import Project from "../Projects";
 import Client from "../Client/Index.jsx";
 
-
 import "./Layout.css";
 
 const drawerWidth = 300;
@@ -44,7 +43,7 @@ function Layout(props) {
       </div>
       <List>
         {SIDEBAR_ITEMS.map((element) => (
-          <ListItem key={element.title}>
+          <a key={element.title} href={element.href} >
             <ListItemButton>
               <ListItemIcon>
                 <b style={{ color: "#FF4C60" }}>{element.icon}</b>
@@ -53,7 +52,7 @@ function Layout(props) {
                 <b style={{ color: "#454360" }}>{element.title}</b>
               </ListItemText>
             </ListItemButton>
-          </ListItem>
+          </a>
         ))}
       </List>
     </div>
@@ -137,27 +136,33 @@ export default Layout;
 const SIDEBAR_ITEMS = [
   {
     title: "Home",
+    href: "#home",
     icon: <HomeIcon />,
   },
 
   {
     title: "About",
+    href: "#about",
     icon: <PermIdentityIcon />,
   },
   {
     title: "Services",
+    href: "#services",
     icon: <MedicalInformationIcon />,
   },
   {
     title: "Experience",
+    href: "#experience",
     icon: <SchoolIcon />,
   },
   {
     title: "Work",
+    href: "#work",
     icon: <WorkIcon />,
   },
   {
     title: "Contact",
+    href: "#contact",
     icon: <CallIcon />,
   },
 ];

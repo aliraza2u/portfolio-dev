@@ -4,7 +4,7 @@ import Header from "../Header/Index";
 import Button from "../Button/Index";
 const Contact = () => {
   return (
-    <div className="contact lg:px-4 2xl:px-0">
+    <div className="contact lg:px-4 2xl:px-0" id="contact">
       <Header header_txt="Get in Touch" />
       <div className=" contact_wrap">
         <div className="row">

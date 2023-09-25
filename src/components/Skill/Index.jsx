@@ -8,7 +8,7 @@ import BadgeIcon from "@mui/icons-material/Badge";
 
 const Skill = () => {
   return (
-    <div className="pt-12">
+    <div className="pt-12" id="experience" >
       <Header header_txt="Skills/Experties" />
       <div className="skill px-4">
         <div className="skill_parent">
@@ -61,7 +61,7 @@ const Skill = () => {
             <div className="skill_center_child flex flex-col gap-5">
               <div className="skill_center_childs">
                 <h4 className="skill_text_color" style={{ color: "#ffd15c" }}>
-                  Management Tools
+                  Block Chain
                 </h4>
                 <ul>
                   {MANAGEMENT_SKILLS.map((element) => {
