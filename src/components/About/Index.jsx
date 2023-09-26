@@ -19,7 +19,7 @@ const About = () => {
                 development, and proficiency in Selenium-Java and Cypress
                 Testing. 
               </p>
-              <Button name="Download CV" className="mt-4" />
+              <a href="/img/Anwar_s_Resume%20(3).pdf" download><Button name="Download CV" className="mt-4"  /></a>
             </div>
             <div className="about_cv2">
               <div className="progress">

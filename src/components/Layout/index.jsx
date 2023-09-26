@@ -24,6 +24,7 @@ import Experience from "../Experience/Index.jsx";
 import Contact from "../Contact/Index.jsx";
 import Project from "../Projects";
 import Client from "../Client/Index.jsx";
+import SlideDownMenu from "../MobileNavigation/index .js";
 
 import "./Layout.css";
 
@@ -43,7 +44,7 @@ function Layout(props) {
       </div>
       <List>
         {SIDEBAR_ITEMS.map((element) => (
-          <a key={element.title} href={element.href} >
+          <a key={element.title} href={element.href} className="list_wrap">
             <ListItemButton>
               <ListItemIcon>
                 <b style={{ color: "#FF4C60" }}>{element.icon}</b>
@@ -90,7 +91,8 @@ function Layout(props) {
       >
         <Drawer
           variant="permanent"
-          sx={{
+          sx={
+            {
             display: { xs: "none", sm: "block" },
             "& .MuiDrawer-paper": {
               backgroundColor: "#f9f9ff",
@@ -118,6 +120,7 @@ function Layout(props) {
           <Services />
           <Experience />
           <Project />
+          {/* <SlideDownMenu /> */}
           {/* <Slider /> */}
           <Client />
           <Contact />

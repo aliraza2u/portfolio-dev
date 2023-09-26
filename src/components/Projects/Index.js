@@ -22,8 +22,8 @@ const Project = () => {
               <div
                 style={{ backgroundImage: `url(${x.img})` }}
                 className="projects_wrapper"
-              >
-                <a href="/">
+                >
+                <a href={x.link}>
                   <div className="project_item">
                     <div className="project_detail"></div>
 
@@ -57,13 +57,15 @@ const PROJECT_DATA = [
     tiltle: "Forest.io",
     text: "Plan, integrate and maintain software system according to your scope",
     icon: <LinkIcon />,
+    link:"https://zaryans.com/services/bespoke/",
   },
   {
     img: image2,
     tab: "Web",
     tiltle: "Pigeon Arabia",
-    text: "Empowering your development journey, we effectively transform visions into code and navigate app and browser testing, creating a digital reality for your ideas.",
+    text: "By offering resume enhancement services, your job board becomes more than just a listing site—it becomes a comprehensive career resource.",
     icon: <LinkIcon />,
+    link:"https://writesea.com/product/",
   },
   {
     img: image3,
@@ -71,6 +73,7 @@ const PROJECT_DATA = [
     tiltle: "Luminary Podcasts",
     text: "CodeAutomation is a leading software development and testing company, revolutionizing the digital landscape through innovation and expertise",
     icon: <LinkIcon />,
+    link:"https://codeautomation.ai/",
   },
   {
     img: image4,
@@ -78,6 +81,7 @@ const PROJECT_DATA = [
     tiltle: "Raiinmaker",
     text: "Dr. Mehdi Mekni is an associate professor of Computer Science and Cybersecurity at the University of New Haven.",
     icon: <LinkIcon />,
+    link:'https://laser.newhaven.edu/about/',
   },
   {
     img: image5,
@@ -85,12 +89,14 @@ const PROJECT_DATA = [
     tiltle: "Raiinmaker",
     text: "With a vast experience and experienced technical team build simple to highly complex bespoken software system. Providing expertise from Story-telling to Designs",
     icon: <LinkIcon />,
+    link:'https://zaryans.com/services/bespoke/',
   },
   {
     img: image6,
     tab: "Web",
     tiltle: "Pigeon Arabia",
     text: "This is a feature that checks for typos, spelling mistakes, and grammatical errors in the resume.",
-    icon: <LinkIcon />
+    icon: <LinkIcon />,
+    link:'https://zaryans.com/services/bespoke/',
   },
 ];
